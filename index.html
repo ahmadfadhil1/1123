@@ -1,2646 +1,803 @@
-<!DOCTYPE html>
-<html lang="id" amp="" data-amp-auto-lightbox-disable transformed="self;v=1" i-amphtml-layout="" i-amphtml-no-boilerplate="">
-
+<html lang="id-ID">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width,viewport-fit=cover">
-    <link rel="preconnect" href="https://cdn.ampproject.org">
-    <style amp-runtime="" i-amphtml-version="012210010655000">
-        html {
-            overflow-x: hidden !important
-        }
-
-        html.i-amphtml-fie {
-            height: 100% !important;
-            width: 100% !important
-        }
-
-        html:not([amp4ads]),
-        html:not([amp4ads]) body {
-            height: auto !important
-        }
-
-        html:not([amp4ads]) body {
-            margin: 0 !important
-        }
-
-        body {
-            -webkit-text-size-adjust: 100%;
-            -moz-text-size-adjust: 100%;
-            -ms-text-size-adjust: 100%;
-            text-size-adjust: 100%
-        }
-
-        html.i-amphtml-singledoc.i-amphtml-embedded {
-            -ms-touch-action: pan-y pinch-zoom;
-            touch-action: pan-y pinch-zoom
-        }
-
-        html.i-amphtml-fie>body,
-        html.i-amphtml-singledoc>body {
-            overflow: visible !important
-        }
-
-        html.i-amphtml-fie:not(.i-amphtml-inabox)>body,
-        html.i-amphtml-singledoc:not(.i-amphtml-inabox)>body {
-            position: relative !important
-        }
-
-        html.i-amphtml-ios-embed-legacy>body {
-            overflow-x: hidden !important;
-            overflow-y: auto !important;
-            position: absolute !important
-        }
-
-        html.i-amphtml-ios-embed {
-            overflow-y: auto !important;
-            position: static
-        }
-
-        #i-amphtml-wrapper {
-            overflow-x: hidden !important;
-            overflow-y: auto !important;
-            position: absolute !important;
-            top: 0 !important;
-            left: 0 !important;
-            right: 0 !important;i
-            bottom: 0 !important;
-            margin: 0 !important;
-            display: block !important
-        }
-
-        html.i-amphtml-ios-embed.i-amphtml-ios-overscroll,
-        html.i-amphtml-ios-embed.i-amphtml-ios-overscroll>#i-amphtml-wrapper {
-            -webkit-overflow-scrolling: touch !important
-        }
-
-        #i-amphtml-wrapper>body {
-            position: relative !important;
-            border-top: 1px solid transparent !important
-        }
-
-        #i-amphtml-wrapper+body {
-            visibility: visible
-        }
-
-        #i-amphtml-wrapper+body .i-amphtml-lightbox-element,
-        #i-amphtml-wrapper+body[i-amphtml-lightbox] {
-            visibility: hidden
-        }
-
-        #i-amphtml-wrapper+body[i-amphtml-lightbox] .i-amphtml-lightbox-element {
-            visibility: visible
-        }
-
-        #i-amphtml-wrapper.i-amphtml-scroll-disabled,
-        .i-amphtml-scroll-disabled {
-            overflow-x: hidden !important;
-            overflow-y: hidden !important
-        }
-
-        amp-instagram {
-            padding: 54px 0px 0px !important;
-            background-color: #fff
-        }
-
-        amp-iframe iframe {
-            box-sizing: border-box !important
-        }
-
-        [amp-access][amp-access-hide] {
-            display: none
-        }
-
-        [subscriptions-dialog],
-        body:not(.i-amphtml-subs-ready) [subscriptions-action],
-        body:not(.i-amphtml-subs-ready) [subscriptions-section] {
-            display: none !important
-        }
-
-        amp-experiment,
-        amp-live-list>[update] {
-            display: none
-        }
-
-        amp-list[resizable-children]>.i-amphtml-loading-container.amp-hidden {
-            display: none !important
-        }
-
-        amp-list [fetch-error],
-        amp-list[load-more] [load-more-button],
-        amp-list[load-more] [load-more-end],
-        amp-list[load-more] [load-more-failed],
-        amp-list[load-more] [load-more-loading] {
-            display: none
-        }
-
-        amp-list[diffable] div[role=list] {
-            display: block
-        }
-
-        amp-story-page,
-        amp-story[standalone] {
-            min-height: 1px !important;
-            display: block !important;
-            height: 100% !important;
-            margin: 0 !important;
-            padding: 0 !important;
-            overflow: hidden !important;
-            width: 100% !important
-        }
-
-        amp-story[standalone] {
-            background-color: #000 !important;
-            position: relative !important
-        }
-
-        amp-story-page {
-            background-color: #757575
-        }
-
-        amp-story .amp-active>div,
-        amp-story .i-amphtml-loader-background {
-            display: none !important
-        }
-
-        amp-story-page:not(:first-of-type):not([distance]):not([active]) {
-            transform: translateY(1000vh) !important
-        }
-
-        amp-autocomplete {
-            position: relative !important;
-            display: inline-block !important
-        }
-
-        amp-autocomplete>input,
-        amp-autocomplete>textarea {
-            padding: 0.5rem;
-            border: 1px solid rgba(0, 0, 0, 0.33)
-        }
-
-        .i-amphtml-autocomplete-results,
-        amp-autocomplete>input,
-        amp-autocomplete>textarea {
-            font-size: 1rem;
-            line-height: 1.5rem
-        }
-
-        [amp-fx^=fly-in] {
-            visibility: hidden
-        }
-
-        amp-script[nodom],
-        amp-script[sandboxed] {
-            position: fixed !important;
-            top: 0 !important;
-            width: 1px !important;
-            height: 1px !important;
-            overflow: hidden !important;
-            visibility: hidden
-        }
-
-        /*# sourceURL=/css/ampdoc.css*/
-
-        [hidden] {
-            display: none !important
-        }
-
-        .i-amphtml-element {
-            display: inline-block
-        }
-
-        .i-amphtml-blurry-placeholder {
-            transition: opacity 0.3s cubic-bezier(0.0, 0.0, 0.2, 1) !important;
-            pointer-events: none
-        }
-
-        [layout=nodisplay]:not(.i-amphtml-element) {
-            display: none !important
-        }
-
-        .i-amphtml-layout-fixed,
-        [layout=fixed][width][height]:not(.i-amphtml-layout-fixed) {
-            display: inline-block;
-            position: relative
-        }
-
-        .i-amphtml-layout-responsive,
-        [layout=responsive][width][height]:not(.i-amphtml-layout-responsive),
-        [width][height][heights]:not([layout]):not(.i-amphtml-layout-responsive),
-        [width][height][sizes]:not(img):not([layout]):not(.i-amphtml-layout-responsive) {
-            display: block;
-            position: relative
-        }
-
-        .i-amphtml-layout-intrinsic,
-        [layout=intrinsic][width][height]:not(.i-amphtml-layout-intrinsic) {
-            display: inline-block;
-            position: relative;
-            max-width: 100%
-        }
-
-        .i-amphtml-layout-intrinsic .i-amphtml-sizer {
-            max-width: 100%
-        }
-
-        .i-amphtml-intrinsic-sizer {
-            max-width: 100%;
-            display: block !important
-        }
-
-        .i-amphtml-layout-container,
-        .i-amphtml-layout-fixed-height,
-        [layout=container],
-        [layout=fixed-height][height]:not(.i-amphtml-layout-fixed-height) {
-            display: block;
-            position: relative
-        }
-
-        .i-amphtml-layout-fill,
-        .i-amphtml-layout-fill.i-amphtml-notbuilt,
-        [layout=fill]:not(.i-amphtml-layout-fill),
-        body noscript>* {
-            display: block;
-            overflow: hidden !important;
-            position: absolute;
-            top: 0;
-            left: 0;
-            bottom: 0;
-            right: 0
-        }
-
-        body noscript>* {
-            position: absolute !important;
-            width: 100%;
-            height: 100%;
-            z-index: 2
-        }
-
-        body noscript {
-            display: inline !important
-        }
-
-        .i-amphtml-layout-flex-item,
-        [layout=flex-item]:not(.i-amphtml-layout-flex-item) {
-            display: block;
-            position: relative;
-            -ms-flex: 1 1 auto;
-            flex: 1 1 auto
-        }
-
-        .i-amphtml-layout-fluid {
-            position: relative
-        }
-
-        .i-amphtml-layout-size-defined {
-            overflow: hidden !important
-        }
-
-        .i-amphtml-layout-awaiting-size {
-            position: absolute !important;
-            top: auto !important;
-            bottom: auto !important
-        }
-
-        i-amphtml-sizer {
-            display: block !important
-        }
-
-        @supports (aspect-ratio:1/1) {
-            i-amphtml-sizer.i-amphtml-disable-ar {
-                display: none !important
-            }
-        }
-
-        .i-amphtml-blurry-placeholder,
-        .i-amphtml-fill-content {
-            display: block;
-            height: 0;
-            max-height: 100%;
-            max-width: 100%;
-            min-height: 100%;
-            min-width: 100%;
-            width: 0;
-            margin: auto
-        }
-
-        .i-amphtml-layout-size-defined .i-amphtml-fill-content {
-            position: absolute;
-            top: 0;
-            left: 0;
-            bottom: 0;
-            right: 0
-        }
-
-        .i-amphtml-replaced-content,
-        .i-amphtml-screen-reader {
-            padding: 0 !important;
-            border: none !important
-        }
-
-        .i-amphtml-screen-reader {
-            position: fixed !important;
-            top: 0px !important;
-            left: 0px !important;
-            width: 4px !important;
-            height: 4px !important;
-            opacity: 0 !important;
-            overflow: hidden !important;
-            margin: 0 !important;
-            display: block !important;
-            visibility: visible !important
-        }
-
-        .i-amphtml-screen-reader~.i-amphtml-screen-reader {
-            left: 8px !important
-        }
-
-        .i-amphtml-screen-reader~.i-amphtml-screen-reader~.i-amphtml-screen-reader {
-            left: 12px !important
-        }
-
-        .i-amphtml-screen-reader~.i-amphtml-screen-reader~.i-amphtml-screen-reader~.i-amphtml-screen-reader {
-            left: 16px !important
-        }
-
-        .i-amphtml-unresolved {
-            position: relative;
-            overflow: hidden !important
-        }
-
-        .i-amphtml-select-disabled {
-            -webkit-user-select: none !important;
-            -ms-user-select: none !important;
-            user-select: none !important
-        }
-
-        .i-amphtml-notbuilt,
-        [layout]:not(.i-amphtml-element),
-        [width][height][heights]:not([layout]):not(.i-amphtml-element),
-        [width][height][sizes]:not(img):not([layout]):not(.i-amphtml-element) {
-            position: relative;
-            overflow: hidden !important;
-            color: transparent !important
-        }
-
-        .i-amphtml-notbuilt:not(.i-amphtml-layout-container)>*,
-        [layout]:not([layout=container]):not(.i-amphtml-element)>*,
-        [width][height][heights]:not([layout]):not(.i-amphtml-element)>*,
-        [width][height][sizes]:not([layout]):not(.i-amphtml-element)>* {
-            display: none
-        }
-
-        amp-img:not(.i-amphtml-element)[i-amphtml-ssr]>img.i-amphtml-fill-content {
-            display: block
-        }
-
-        .i-amphtml-notbuilt:not(.i-amphtml-layout-container),
-        [layout]:not([layout=container]):not(.i-amphtml-element),
-        [width][height][heights]:not([layout]):not(.i-amphtml-element),
-        [width][height][sizes]:not(img):not([layout]):not(.i-amphtml-element) {
-            color: transparent !important;
-            line-height: 0 !important
-        }
-
-        .i-amphtml-ghost {
-            visibility: hidden !important
-        }
-
-        .i-amphtml-element>[placeholder],
-        [layout]:not(.i-amphtml-element)>[placeholder],
-        [width][height][heights]:not([layout]):not(.i-amphtml-element)>[placeholder],
-        [width][height][sizes]:not([layout]):not(.i-amphtml-element)>[placeholder] {
-            display: block;
-            line-height: normal
-        }
-
-        .i-amphtml-element>[placeholder].amp-hidden,
-        .i-amphtml-element>[placeholder].hidden {
-            visibility: hidden
-        }
-
-        .i-amphtml-element:not(.amp-notsupported)>[fallback],
-        .i-amphtml-layout-container>[placeholder].amp-hidden,
-        .i-amphtml-layout-container>[placeholder].hidden {
-            display: none
-        }
-
-        .i-amphtml-layout-size-defined>[fallback],
-        .i-amphtml-layout-size-defined>[placeholder] {
-            position: absolute !important;
-            top: 0 !important;
-            left: 0 !important;
-            right: 0 !important;
-            bottom: 0 !important;
-            z-index: 1
-        }
-
-        amp-img[i-amphtml-ssr]:not(.i-amphtml-element)>[placeholder] {
-            z-index: auto
-        }
-
-        .i-amphtml-notbuilt>[placeholder] {
-            display: block !important
-        }
-
-        .i-amphtml-hidden-by-media-query {
-            display: none !important
-        }
-
-        .i-amphtml-element-error {
-            background: red !important;
-            color: #fff !important;
-            position: relative !important
-        }
-
-        .i-amphtml-element-error:before {
-            content: attr(error-message)
-        }
-
-        i-amp-scroll-container,
-        i-amphtml-scroll-container {
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            display: block
-        }
-
-        i-amp-scroll-container.amp-active,
-        i-amphtml-scroll-container.amp-active {
-            overflow: auto;
-            -webkit-overflow-scrolling: touch
-        }
-
-        .i-amphtml-loading-container {
-            display: block !important;
-            pointer-events: none;
-            z-index: 1
-        }
-
-        .i-amphtml-notbuilt>.i-amphtml-loading-container {
-            display: block !important
-        }
-
-        .i-amphtml-loading-container.amp-hidden {
-            visibility: hidden
-        }
-
-        .i-amphtml-element>[overflow] {
-            cursor: pointer;
-            position: relative;
-            z-index: 2;
-            visibility: hidden;
-            display: initial;
-            line-height: normal
-        }
-
-        .i-amphtml-layout-size-defined>[overflow] {
-            position: absolute
-        }
-
-        .i-amphtml-element>[overflow].amp-visible {
-            visibility: visible
-        }
-
-        template {
-            display: none !important
-        }
-
-        .amp-border-box,
-        .amp-border-box *,
-        .amp-border-box :after,
-        .amp-border-box :before {
-            box-sizing: border-box
-        }
-
-        amp-pixel {
-            display: none !important
-        }
-
-        amp-analytics,
-        amp-auto-ads,
-        amp-story-auto-ads {
-            position: fixed !important;
-            top: 0 !important;
-            width: 1px !important;
-            height: 1px !important;
-            overflow: hidden !important;
-            visibility: hidden
-        }
-
-        amp-story {
-            visibility: hidden !important
-        }
-
-        html.i-amphtml-fie>amp-analytics {
-            position: initial !important
-        }
-
-        [visible-when-invalid]:not(.visible),
-        form [submit-error],
-        form [submit-success],
-        form [submitting] {
-            display: none
-        }
-
-        amp-accordion {
-            display: block !important
-        }
-
-        @media (min-width:1px) {
-            :where(amp-accordion>section)>:first-child {
-                margin: 0;
-                background-color: #efefef;
-                padding-right: 20px;
-                border: 1px solid #dfdfdf
-            }
-            :where(amp-accordion>section)>:last-child {
-                margin: 0
-            }
-        }
-
-        amp-accordion>section {
-            float: none !important
-        }
-
-        amp-accordion>section>* {
-            float: none !important;
-            display: block !important;
-            overflow: hidden !important;
-            position: relative !important
-        }
-
-        amp-accordion,
-        amp-accordion>section {
-            margin: 0
-        }
-
-        amp-accordion:not(.i-amphtml-built)>section>:last-child {
-            display: none !important
-        }
-
-        amp-accordion:not(.i-amphtml-built)>section[expanded]>:last-child {
-            display: block !important
-        }
-
-        /*# sourceURL=/css/ampshared.css*/
-    </style>
-    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
-    <meta name="description" content="Kingcobratoto adalah situs judi slot gacor terbaik dengan fitur judi slot online terpercaya gampang menang untuk game pragmatic play terlengkap.">
-    <meta property="og:locale" content="id_ID">
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="Kingcobratoto- Daftar Situs Judi Slot Gacor Online Gampang Menang">
-    <meta property="og:description" content="Kingcobratoto- adalah situs judi slot gacor terbaik dengan fitur judi slot online terpercaya gampang menang untuk game pragmatic play terlengkap.">
-    <meta property="og:url" content="https://purple-rock-0713bc910.2.azurestaticapps.net ">
-    <meta property="og:site_name" content="Kingcobratoto-">
-    <meta property="article:modified_time" content="2022-10-26T12:45:29+00:00">
-    <meta property="og:image" content="https://purple-rock-0713bc910.2.azurestaticapps.net ">
-    <meta property="og:image:width" content="320">
-    <meta property="og:image:height" content="320">
-    <meta property="og:image:type" content="image/jpeg">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:label1" content="Estimasi waktu membaca">
-    <meta name="twitter:data1" content="1 menit">
-    <meta name="keywords" content="Kingcobratoto,slot online,judi slot online,slot online terbaik,slot online terpercaya,agen slot online,daftar slot,slot gacor,judi slot gacor">
-    <meta name="generator" content="AMP Plugin v2.3.0; mode=standard">
-    <meta name="msapplication-TileImage" content="https://i.postimg.cc/TYKSMvrB/favicon.png?fit=192%2C192&amp;ssl=1">
-    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
-    <link rel="dns-prefetch" href="//fonts.googleapis.com">
-    <link rel="dns-prefetch" href="//widgets.wp.com">
-    <link rel="dns-prefetch" href="//jetpack.wordpress.com">
-    <link rel="dns-prefetch" href="//s0.wp.com">
-    <link rel="dns-prefetch" href="//public-api.wordpress.com">
-    <link rel="dns-prefetch" href="//0.gravatar.com">
-    <link rel="dns-prefetch" href="//1.gravatar.com">
-    <link rel="dns-prefetch" href="//2.gravatar.com">
-    <link rel="dns-prefetch" href="//i0.wp.com">
-    <link rel="dns-prefetch" href="//c0.wp.com">
-    <link rel="preload" href="https://purple-rock-0713bc910.2.azurestaticapps.net wp-content/plugins/elementor/assets/lib/font-awesome/fonts/fontawesome-webfont.eot#iefix&amp;v=4.7.0" as="font" crossorigin="">
-    <link rel="preload" href="https://purple-rock-0713bc910.2.azurestaticapps.net wp-content/plugins/jetpack/_inc/social-logos/social-logos.eot?5d3b4da4f6c2460dd842dbf9e0992ea6#iefix" as="font" crossorigin="">
-    <link rel="preload" href="https://purple-rock-0713bc910.2.azurestaticapps.net wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.eot?5.16.0#iefix" as="font" crossorigin="">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
-    <link rel="dns-prefetch" href="https://fonts.gstatic.com">
-    <script async="" src="https://cdn.ampproject.org/v0.mjs" type="module" crossorigin="anonymous"></script>
-    <script async nomodule src="https://cdn.ampproject.org/v0.js" crossorigin="anonymous"></script>
-    <script src="https://cdn.ampproject.org/v0/amp-mustache-0.2.mjs" async="" custom-template="amp-mustache" type="module" crossorigin="anonymous"></script>
-    <script async nomodule src="https://cdn.ampproject.org/v0/amp-mustache-0.2.js" crossorigin="anonymous" custom-template="amp-mustache"></script>
-    <script src="https://cdn.ampproject.org/v0/amp-next-page-1.0.mjs" async="" custom-element="amp-next-page" type="module" crossorigin="anonymous"></script>
-    <script async nomodule src="https://cdn.ampproject.org/v0/amp-next-page-1.0.js" crossorigin="anonymous" custom-element="amp-next-page"></script>
-    <link rel="icon" href="https://i.postimg.cc/TYKSMvrB/favicon.png?fit=32%2C32&amp;ssl=1" sizes="32x32">
-    <link rel="icon" href="https://i.postimg.cc/TYKSMvrB/favicon.png?fit=192%2C192&amp;ssl=1" sizes="192x192">
-    <link crossorigin="anonymous" rel="stylesheet" id="news-portal-fonts-css" href="https://fonts.googleapis.com/css?family=Roboto+Condensed%3A300italic%2C400italic%2C700italic%2C400%2C300%2C700%7CRoboto%3A300%2C400%2C400i%2C500%2C700%7CTitillium+Web%3A400%2C600%2C700%2C300&amp;subset=latin%2Clatin-ext"
-        type="text/css" media="all">
-    <link crossorigin="anonymous" rel="stylesheet" id="google-fonts-1-css" href="https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&amp;display=auto&amp;ver=6.0.3"
-        type="text/css" media="all">
-    <style amp-custom="">
-        amp-img.amp-wp-enforced-sizes {
-            -o-object-fit: contain;
-            object-fit: contain
-        }
-
-        amp-img img,
-        amp-img noscript {
-            image-rendering: inherit;
-            -o-object-fit: inherit;
-            object-fit: inherit;
-            -o-object-position: inherit;
-            object-position: inherit
-        }
-
-        :where(.wp-block-columns.has-background) {
-            padding: 1.25em 2.375em
-        }
-
-        ol,
-        ul {
-            box-sizing: border-box
-        }
-
-        :where(p.has-text-color:not(.has-link-color)) a {
-            color: inherit
-        }
-
-        :root {
-            --wp--preset--font-size--normal: 16px;
-            --wp--preset--font-size--huge: 42px
-        }
-
-        html :where(.has-border-color),
-        html :where([data-amp-original-style*=border-width]) {
-            border-style: solid
-        }
-
-        html :where(amp-img[class*=wp-image-]),
-        html :where(amp-anim[class*=wp-image-]) {
-            height: auto;
-            max-width: 100%
-        }
-
-        @-webkit-keyframes a {
-            to {
-                -webkit-transform: rotate(1turn);
-                transform: rotate(1turn)
-            }
-        }
-
-        @keyframes a {
-            to {
-                -webkit-transform: rotate(1turn);
-                transform: rotate(1turn)
-            }
-        }
-
-        @-webkit-keyframes b {
-            0% {
-                background-position: 0 0
-            }
-            to {
-                background-position: 30px 0
-            }
-        }
-
-        @keyframes b {
-            0% {
-                background-position: 0 0
-            }
-            to {
-                background-position: 30px 0
-            }
-        }
-
-        body {
-            --wp--preset--color--black: #000;
-            --wp--preset--color--cyan-bluish-gray: #abb8c3;
-            --wp--preset--color--white: #fff;
-            --wp--preset--color--pale-pink: #f78da7;
-            --wp--preset--color--vivid-red: #cf2e2e;
-            --wp--preset--color--luminous-vivid-orange: #ff6900;
-            --wp--preset--color--luminous-vivid-amber: #fcb900;
-            --wp--preset--color--light-green-cyan: #7bdcb5;
-            --wp--preset--color--vivid-green-cyan: #00d084;
-            --wp--preset--color--pale-cyan-blue: #8ed1fc;
-            --wp--preset--color--vivid-cyan-blue: #0693e3;
-            --wp--preset--color--vivid-purple: #9b51e0;
-            --wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg, rgba(6, 147, 227, 1) 0%, #9b51e0 100%);
-            --wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg, #7adcb4 0%, #00d082 100%);
-            --wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg, rgba(252, 185, 0, 1) 0%, rgba(255, 105, 0, 1) 100%);
-            --wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg, rgba(255, 105, 0, 1) 0%, #cf2e2e 100%);
-            --wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg, #eee 0%, #a9b8c3 100%);
-            --wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg, #4aeadc 0%, #9778d1 20%, #cf2aba 40%, #ee2c82 60%, #fb6962 80%, #fef84c 100%);
-            --wp--preset--gradient--blush-light-purple: linear-gradient(135deg, #ffceec 0%, #9896f0 100%);
-            --wp--preset--gradient--blush-bordeaux: linear-gradient(135deg, #fecda5 0%, #fe2d2d 50%, #6b003e 100%);
-            --wp--preset--gradient--luminous-dusk: linear-gradient(135deg, #ffcb70 0%, #c751c0 50%, #4158d0 100%);
-            --wp--preset--gradient--pale-ocean: linear-gradient(135deg, #fff5cb 0%, #b6e3d4 50%, #33a7b5 100%);
-            --wp--preset--gradient--electric-grass: linear-gradient(135deg, #caf880 0%, #71ce7e 100%);
-            --wp--preset--gradient--midnight: linear-gradient(135deg, #020381 0%, #2874fc 100%);
-            --wp--preset--duotone--dark-grayscale: url("#wp-duotone-dark-grayscale");
-            --wp--preset--duotone--grayscale: url("#wp-duotone-grayscale");
-            --wp--preset--duotone--purple-yellow: url("#wp-duotone-purple-yellow");
-            --wp--preset--duotone--blue-red: url("#wp-duotone-blue-red");
-            --wp--preset--duotone--midnight: url("#wp-duotone-midnight");
-            --wp--preset--duotone--magenta-yellow: url("#wp-duotone-magenta-yellow");
-            --wp--preset--duotone--purple-green: url("#wp-duotone-purple-green");
-            --wp--preset--duotone--blue-orange: url("#wp-duotone-blue-orange");
-            --wp--preset--font-size--small: 13px;
-            --wp--preset--font-size--medium: 20px;
-            --wp--preset--font-size--large: 36px;
-            --wp--preset--font-size--x-large: 42px
-        }
-
-        @font-face {
-            font-family: "FontAwesome";
-            src: url("https://purple-rock-0713bc910.2.azurestaticapps.net wp-content/plugins/elementor/assets/lib/font-awesome/fonts/fontawesome-webfont.eot?v=4.7.0");
-            src: url("https://purple-rock-0713bc910.2.azurestaticapps.net wp-content/plugins/elementor/assets/lib/font-awesome/fonts/fontawesome-webfont.eot#iefix&v=4.7.0") format("embedded-opentype"), url("https://purple-rock-0713bc910.2.azurestaticapps.net wp-content/plugins/elementor/assets/lib/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0") format("woff2"), url("https://purple-rock-0713bc910.2.azurestaticapps.net wp-content/plugins/elementor/assets/lib/font-awesome/fonts/fontawesome-webfont.woff?v=4.7.0") format("woff"), url("https://purple-rock-0713bc910.2.azurestaticapps.net wp-content/plugins/elementor/assets/lib/font-awesome/fonts/fontawesome-webfont.ttf?v=4.7.0") format("truetype"), url("https://purple-rock-0713bc910.2.azurestaticapps.net wp-content/plugins/elementor/assets/lib/font-awesome/fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular") format("svg");
-            font-weight: normal;
-            font-style: normal
-        }
-
-        @-webkit-keyframes fa-spin {
-            0% {
-                -webkit-transform: rotate(0deg);
-                transform: rotate(0deg)
-            }
-            100% {
-                -webkit-transform: rotate(359deg);
-                transform: rotate(359deg)
-            }
-        }
-
-        @keyframes fa-spin {
-            0% {
-                -webkit-transform: rotate(0deg);
-                transform: rotate(0deg)
-            }
-            100% {
-                -webkit-transform: rotate(359deg);
-                transform: rotate(359deg)
-            }
-        }
-
-        @-webkit-keyframes rightEnd {
-            0%,
-            100% {
-                left: 0
-            }
-            50% {
-                left: -15px
-            }
-        }
-
-        @keyframes rightEnd {
-            0%,
-            100% {
-                left: 0
-            }
-            50% {
-                left: -15px
-            }
-        }
-
-        @-webkit-keyframes topEnd {
-            0%,
-            100% {
-                top: 0
-            }
-            50% {
-                top: -15px
-            }
-        }
-
-        @keyframes topEnd {
-            0%,
-            100% {
-                top: 0
-            }
-            50% {
-                top: -15px
-            }
-        }
-
-        @-webkit-keyframes leftEnd {
-            0%,
-            100% {
-                left: 0
-            }
-            50% {
-                left: 15px
-            }
-        }
-
-        @keyframes leftEnd {
-            0%,
-            100% {
-                left: 0
-            }
-            50% {
-                left: 15px
-            }
-        }
-
-        @-webkit-keyframes bottomEnd {
-            0%,
-            100% {
-                bottom: 0
-            }
-            50% {
-                bottom: -15px
-            }
-        }
-
-        @keyframes bottomEnd {
-            0%,
-            100% {
-                bottom: 0
-            }
-            50% {
-                bottom: -15px
-            }
-        }
-
-        html,
-        body,
-        div,
-        span,
-        h1,
-        h2,
-        h3,
-        h4,
-        p,
-        a,
-        strong,
-        ol,
-        ul,
-        li,
-        table,
-        tbody,
-        tr,
-        td {
-            border: 0;
-            font-family: inherit;
-            font-size: 100%;
-            font-style: inherit;
-            font-weight: inherit;
-            margin: 0;
-            outline: 0;
-            padding: 0;
-            vertical-align: baseline
-        }
-
-        html {
-            font-size: 62.5%;
-            overflow-y: scroll;
-            -webkit-text-size-adjust: 100%;
-            -ms-text-size-adjust: 100%
-        }
-
-        *,
-        *:before,
-        *:after {
-            -webkit-box-sizing: border-box;
-            -moz-box-sizing: border-box;
-            box-sizing: border-box
-        }
-
-        body {
-            background: #fff
-        }
-
-        section {
-            display: block
-        }
-
-        ol,
-        ul {
-            list-style: none
-        }
-
-        table {
-            border-collapse: separate;
-            border-spacing: 0
-        }
-
-        td {
-            font-weight: normal;
-            text-align: left
-        }
-
-        a:focus {
-            outline: 0
-        }
-
-        a:hover,
-        a:active {
-            outline: 0
-        }
-
-        a amp-img {
-            border: 0
-        }
-
-        body {
-            color: #3d3d3d;
-            font-family: "Roboto", sans-serif;
-            font-size: 14px;
-            line-height: 1.8;
-            font-weight: 400
-        }
-
-        h1,
-        h2,
-        h3,
-        h4 {
-            clear: both;
-            font-weight: normal;
-            font-weight: 700;
-            font-family: "Roboto", sans-serif;
-            line-height: 1.3;
-            margin-bottom: 15px;
-            color: #3d3d3d
-        }
-
-        p {
-            margin-bottom: 20px
-        }
-
-        b,
-        strong {
-            font-weight: bold
-        }
-
-        h1 {
-            font-size: 36px
-        }
-
-        h2 {
-            font-size: 30px
-        }
-
-        h3 {
-            font-size: 26px
-        }
-
-        h4 {
-            font-size: 20px
-        }
-
-        ul,
-        ol {
-            margin: 0 0 15px 20px
-        }
-
-        ul {
-            list-style: disc
-        }
-
-        ol {
-            list-style: decimal
-        }
-
-        li>ul,
-        li>ol {
-            margin-bottom: 0;
-            margin-left: 15px
-        }
-
-        amp-img {
-            height: auto;
-            max-width: 100%;
-            vertical-align: middle
-        }
-
-        table {
-            margin: 0 0 15px;
-            width: 100%;
-            border-collapse: collapse
-        }
-
-        td {
-            border: 1px solid #ccc;
-            padding: 5px 10px
-        }
-
-        a {
-            color: #029fb2;
-            text-decoration: none;
-            transition: all .3s ease-in-out;
-            -webkit-transition: all .3s ease-in-out;
-            -moz-transition: all .3s ease-in-out
-        }
-
-        a:hover,
-        a:focus,
-        a:active {
-            color: #029fb2
-        }
-
-        a:focus {
-            outline: thin dotted
-        }
-
-        body {
-            font-weight: 400;
-            overflow: hidden;
-            position: relative;
-            font-family: "Roboto", sans-serif;
-            line-height: 1.8
-        }
-
-        @font-face {
-            font-family: social-logos;
-            src: url("https://purple-rock-0713bc910.2.azurestaticapps.net wp-content/plugins/jetpack/_inc/social-logos/social-logos.eot?5d3b4da4f6c2460dd842dbf9e0992ea6");
-            font-weight: 400;
-            font-style: normal
-        }
-
-        @font-face {
-            font-family: social-logos;
-            src: url("https://purple-rock-0713bc910.2.azurestaticapps.net wp-content/plugins/jetpack/_inc/social-logos/social-logos.eot?5d3b4da4f6c2460dd842dbf9e0992ea6");
-            src: url("https://purple-rock-0713bc910.2.azurestaticapps.net wp-content/plugins/jetpack/_inc/social-logos/social-logos.eot?5d3b4da4f6c2460dd842dbf9e0992ea6#iefix") format("embedded-opentype"), url("https://purple-rock-0713bc910.2.azurestaticapps.net wp-content/plugins/jetpack/_inc/social-logos/social-logos.woff") format("woff"), url("https://purple-rock-0713bc910.2.azurestaticapps.net wp-content/plugins/jetpack/_inc/social-logos/social-logos.ttf?5d3b4da4f6c2460dd842dbf9e0992ea6") format("truetype");
-            font-weight: 400;
-            font-style: normal
-        }
-
-        amp-img#wpstats {
-            display: none
-        }
-
-        a,
-        a:hover,
-        a:focus,
-        a:active {
-            color: #029fb2
-        }
-
-        .elementor-widget-image {
-            text-align: center
-        }
-
-        .elementor-widget-image a {
-            display: inline-block
-        }
-
-        .elementor-widget-image a amp-img[src$=".svg"] {
-            width: 48px
-        }
-
-        .elementor-widget-image amp-img {
-            vertical-align: middle;
-            display: inline-block
-        }
-
-        .elementor-heading-title {
-            padding: 0;
-            margin: 0;
-            line-height: 1
-        }
-
-        .elementor-widget-heading .elementor-heading-title[class*=elementor-size-]>a {
-            color: inherit;
-            font-size: inherit;
-            line-height: inherit
-        }
-
-        .elementor-widget-heading .elementor-heading-title.elementor-size-large {
-            font-size: 29px
-        }
-
-        .elementor {
-            -webkit-hyphens: manual;
-            -ms-hyphens: manual;
-            hyphens: manual
-        }
-
-        .elementor *,
-        .elementor :after,
-        .elementor :before {
-            -webkit-box-sizing: border-box;
-            box-sizing: border-box
-        }
-
-        .elementor a {
-            -webkit-box-shadow: none;
-            box-shadow: none;
-            text-decoration: none
-        }
-
-        .elementor amp-img {
-            height: auto;
-            max-width: 100%;
-            border: none;
-            border-radius: 0;
-            -webkit-box-shadow: none;
-            box-shadow: none
-        }
-
-        .elementor-element {
-            --flex-direction: initial;
-            --flex-wrap: initial;
-            --justify-content: initial;
-            --align-items: initial;
-            --align-content: initial;
-            --gap: initial;
-            --flex-basis: initial;
-            --flex-grow: initial;
-            --flex-shrink: initial;
-            --order: initial;
-            --align-self: initial;
-            -webkit-box-orient: vertical;
-            -webkit-box-direction: normal;
-            -ms-flex-direction: var(--flex-direction);
-            flex-direction: var(--flex-direction);
-            -ms-flex-wrap: var(--flex-wrap);
-            flex-wrap: var(--flex-wrap);
-            -webkit-box-pack: var(--justify-content);
-            -ms-flex-pack: var(--justify-content);
-            justify-content: var(--justify-content);
-            -webkit-box-align: var(--align-items);
-            -ms-flex-align: var(--align-items);
-            align-items: var(--align-items);
-            -ms-flex-line-pack: var(--align-content);
-            align-content: var(--align-content);
-            gap: var(--gap);
-            -ms-flex-preferred-size: var(--flex-basis);
-            flex-basis: var(--flex-basis);
-            -webkit-box-flex: var(--flex-grow);
-            -ms-flex-positive: var(--flex-grow);
-            flex-grow: var(--flex-grow);
-            -ms-flex-negative: var(--flex-shrink);
-            flex-shrink: var(--flex-shrink);
-            -webkit-box-ordinal-group: var(--order);
-            -ms-flex-order: var(--order);
-            order: var(--order);
-            -ms-flex-item-align: var(--align-self);
-            align-self: var(--align-self)
-        }
-
-        .elementor-align-justify .elementor-button {
-            width: 100%
-        }
-
-        :root {
-            --page-title-display: block
-        }
-
-        @-webkit-keyframes eicon-spin {
-            0% {
-                -webkit-transform: rotate(0deg);
-                transform: rotate(0deg)
-            }
-            to {
-                -webkit-transform: rotate(359deg);
-                transform: rotate(359deg)
-            }
-        }
-
-        @keyframes eicon-spin {
-            0% {
-                -webkit-transform: rotate(0deg);
-                transform: rotate(0deg)
-            }
-            to {
-                -webkit-transform: rotate(359deg);
-                transform: rotate(359deg)
-            }
-        }
-
-        .elementor-section {
-            position: relative
-        }
-
-        .elementor-section .elementor-container {
-            display: -webkit-box;
-            display: -ms-flexbox;
-            display: flex;
-            margin-right: auto;
-            margin-left: auto;
-            position: relative
-        }
-
-        @media (max-width:1024px) {
-            .elementor-section .elementor-container {
-                -ms-flex-wrap: wrap;
-                flex-wrap: wrap
-            }
-        }
-
-        .elementor-section.elementor-section-boxed>.elementor-container {
-            max-width: 1140px
-        }
-
-        .elementor-section.elementor-section-items-middle>.elementor-container {
-            -webkit-box-align: center;
-            -ms-flex-align: center;
-            align-items: center
-        }
-
-        .elementor-widget-wrap {
-            position: relative;
-            width: 100%;
-            -ms-flex-wrap: wrap;
-            flex-wrap: wrap;
-            -ms-flex-line-pack: start;
-            align-content: flex-start
-        }
-
-        .elementor:not(.elementor-bc-flex-widget) .elementor-widget-wrap {
-            display: -webkit-box;
-            display: -ms-flexbox;
-            display: flex
-        }
-
-        .elementor-widget-wrap>.elementor-element {
-            width: 100%
-        }
-
-        .elementor-widget {
-            position: relative
-        }
-
-        .elementor-widget:not(:last-child) {
-            margin-bottom: 20px
-        }
-
-        .elementor-column {
-            min-height: 1px
-        }
-
-        .elementor-column {
-            position: relative;
-            display: -webkit-box;
-            display: -ms-flexbox;
-            display: flex
-        }
-
-        .elementor-column-gap-default>.elementor-column>.elementor-element-populated {
-            padding: 10px
-        }
-
-        @media (min-width:768px) {
-            .elementor-column.elementor-col-25 {
-                width: 25%
-            }
-            .elementor-column.elementor-col-50 {
-                width: 50%
-            }
-            .elementor-column.elementor-col-100 {
-                width: 100%
-            }
-        }
-
-        @media (max-width:767px) {
-            .elementor-column {
-                width: 100%
-            }
-        }
-
-        @-webkit-keyframes dnd-placeholder-widget-vertical {
-            0% {
-                -webkit-transform-origin: 0 50%;
-                transform-origin: 0 50%;
-                -webkit-transform: translateX(50%) scaleX(0);
-                transform: translateX(50%) scaleX(0);
-                opacity: 0
-            }
-            to {
-                -webkit-transform-origin: 0 50%;
-                transform-origin: 0 50%;
-                -webkit-transform: translateX(50%) scaleX(1);
-                transform: translateX(50%) scaleX(1);
-                opacity: .9
-            }
-        }
-
-        @keyframes dnd-placeholder-widget-vertical {
-            0% {
-                -webkit-transform-origin: 0 50%;
-                transform-origin: 0 50%;
-                -webkit-transform: translateX(50%) scaleX(0);
-                transform: translateX(50%) scaleX(0);
-                opacity: 0
-            }
-            to {
-                -webkit-transform-origin: 0 50%;
-                transform-origin: 0 50%;
-                -webkit-transform: translateX(50%) scaleX(1);
-                transform: translateX(50%) scaleX(1);
-                opacity: .9
-            }
-        }
-
-        @-webkit-keyframes dnd-placeholder-widget-horizontal {
-            0% {
-                -webkit-transform-origin: 50% 0;
-                transform-origin: 50% 0;
-                -webkit-transform: scaleY(0);
-                transform: scaleY(0);
-                opacity: 0
-            }
-            to {
-                -webkit-transform-origin: 50% 0;
-                transform-origin: 50% 0;
-                -webkit-transform: scaleY(1);
-                transform: scaleY(1);
-                opacity: .9
-            }
-        }
-
-        @keyframes dnd-placeholder-widget-horizontal {
-            0% {
-                -webkit-transform-origin: 50% 0;
-                transform-origin: 50% 0;
-                -webkit-transform: scaleY(0);
-                transform: scaleY(0);
-                opacity: 0
-            }
-            to {
-                -webkit-transform-origin: 50% 0;
-                transform-origin: 50% 0;
-                -webkit-transform: scaleY(1);
-                transform: scaleY(1);
-                opacity: .9
-            }
-        }
-
-        .elementor-element .elementor-widget-container {
-            -webkit-transition: background .3s, border .3s, border-radius .3s, -webkit-box-shadow .3s;
-            transition: background .3s, border .3s, border-radius .3s, -webkit-box-shadow .3s;
-            transition: background .3s, border .3s, border-radius .3s, box-shadow .3s;
-            transition: background .3s, border .3s, border-radius .3s, box-shadow .3s, -webkit-box-shadow .3s;
-            -o-transition: background .3s, border .3s, border-radius .3s, box-shadow .3s
-        }
-
-        .elementor-button {
-            display: inline-block;
-            line-height: 1;
-            background-color: #818a91;
-            font-size: 15px;
-            padding: 12px 24px;
-            border-radius: 3px;
-            color: #fff;
-            fill: #fff;
-            text-align: center;
-            -webkit-transition: all .3s;
-            -o-transition: all .3s;
-            transition: all .3s
-        }
-
-        .elementor-button:focus,
-        .elementor-button:hover,
-        .elementor-button:visited {
-            color: #fff
-        }
-
-        .elementor-button-content-wrapper {
-            display: -webkit-box;
-            display: -ms-flexbox;
-            display: flex;
-            -webkit-box-pack: center;
-            -ms-flex-pack: center;
-            justify-content: center
-        }
-
-        .elementor-button-text {
-            -webkit-box-flex: 1;
-            -ms-flex-positive: 1;
-            flex-grow: 1;
-            -webkit-box-ordinal-group: 11;
-            -ms-flex-order: 10;
-            order: 10;
-            display: inline-block
-        }
-
-        .elementor-button.elementor-size-md {
-            font-size: 16px;
-            padding: 15px 30px;
-            border-radius: 4px
-        }
-
-        .elementor-button span {
-            text-decoration: inherit
-        }
-
-        .elementor-element.elementor-button-info .elementor-button {
-            background-color: #5bc0de
-        }
-
-        .elementor-widget-button .elementor-button .elementor-button-info {
-            background-color: #5bc0de
-        }
-
-        @-webkit-keyframes swiper-preloader-spin {
-            to {
-                -webkit-transform: rotate(1turn);
-                transform: rotate(1turn)
-            }
-        }
-
-        @keyframes swiper-preloader-spin {
-            to {
-                -webkit-transform: rotate(1turn);
-                transform: rotate(1turn)
-            }
-        }
-
-        .elementor-shape {
-            overflow: hidden;
-            position: absolute;
-            left: 0;
-            width: 100%;
-            line-height: 0;
-            direction: ltr
-        }
-
-        .elementor-shape-bottom {
-            bottom: -1px
-        }
-
-        .elementor-shape-bottom:not([data-negative=true]) svg {
-            z-index: -1
-        }
-
-        .elementor-shape[data-negative=false].elementor-shape-bottom {
-            -webkit-transform: rotate(180deg);
-            -ms-transform: rotate(180deg);
-            transform: rotate(180deg)
-        }
-
-        .elementor-shape svg {
-            display: block;
-            width: calc(100% + 1.3px);
-            position: relative;
-            left: 50%;
-            -webkit-transform: translateX(-50%);
-            -ms-transform: translateX(-50%);
-            transform: translateX(-50%)
-        }
-
-        .elementor-shape .elementor-shape-fill {
-            fill: #fff;
-            -webkit-transform-origin: center;
-            -ms-transform-origin: center;
-            transform-origin: center;
-            -webkit-transform: rotateY(0deg);
-            transform: rotateY(0deg)
-        }
-
-        .elementor-115 .elementor-element.elementor-element-58efba0f>.elementor-container {
-            min-height: 616px
-        }
-
-        .elementor-115 .elementor-element.elementor-element-58efba0f:not(.elementor-motion-effects-element-type-background) {
-            background-image: url("https://delivery.labs.time.com/wp-content/uploads/2022/10/spbg-1-1.webp");
-            background-position: center center;
-            background-repeat: no-repeat;
-            background-size: cover
-        }
-
-        .elementor-115 .elementor-element.elementor-element-58efba0f {
-            transition: background .3s, border .3s, border-radius .3s, box-shadow .3s
-        }
-
-        .elementor-115 .elementor-element.elementor-element-1b3853ef>.elementor-element-populated {
-            margin: 5px 5px 5px 5px;
-            --e-column-margin-right: 5px;
-            --e-column-margin-left: 5px
-        }
-
-        .elementor-115 .elementor-element.elementor-element-7a423348>.elementor-widget-container {
-            margin: 0px 10px 0px 10px
-        }
-
-        .elementor-115 .elementor-element.elementor-element-7376e77 {
-            text-align: center;
-            color: #ede8e8;
-            font-family: "Roboto", Sans-serif;
-            font-size: 41px;
-            font-weight: 400
-        }
-
-        .elementor-115 .elementor-element.elementor-element-7376e77>.elementor-widget-container {
-            margin: -64px -64px -64px -64px
-        }
-
-        .elementor-115 .elementor-element.elementor-element-72294e68 {
-            text-align: center;
-            color: #efeaea;
-            font-family: "Roboto", Sans-serif;
-            font-weight: 400
-        }
-
-        .elementor-115 .elementor-element.elementor-element-72294e68>.elementor-widget-container {
-            margin: -21px -21px -21px -21px
-        }
-
-        .elementor-115 .elementor-element.elementor-element-1e1af6f3>.elementor-container {
-            max-width: 608px
-        }
-
-        .elementor-115 .elementor-element.elementor-element-75e7d4ba .elementor-button:hover,
-        .elementor-115 .elementor-element.elementor-element-75e7d4ba .elementor-button:focus {
-            background-color: #efb607
-        }
-
-        .elementor-115 .elementor-element.elementor-element-75e7d4ba .elementor-button {
-            padding: 12px 12px 12px 12px
-        }
-
-        .elementor-115 .elementor-element.elementor-element-24a9bfe .elementor-button:hover,
-        .elementor-115 .elementor-element.elementor-element-24a9bfe .elementor-button:focus {
-            background-color: #efb607
-        }
-
-        .elementor-115 .elementor-element.elementor-element-24a9bfe .elementor-button {
-            padding: 12px 12px 12px 12px
-        }
-
-        .elementor-115 .elementor-element.elementor-element-89b6275>.elementor-container {
-            max-width: 608px
-        }
-
-        .elementor-115 .elementor-element.elementor-element-3f685539 .elementor-button:hover,
-        .elementor-115 .elementor-element.elementor-element-3f685539 .elementor-button:focus {
-            background-color: #efb607
-        }
-
-        .elementor-115 .elementor-element.elementor-element-3f685539 .elementor-button {
-            padding: 12px 12px 12px 12px
-        }
-
-        .elementor-115 .elementor-element.elementor-element-166bf783 .elementor-button:hover,
-        .elementor-115 .elementor-element.elementor-element-166bf783 .elementor-button:focus {
-            background-color: #efb607
-        }
-
-        .elementor-115 .elementor-element.elementor-element-166bf783 .elementor-button {
-            padding: 12px 12px 12px 12px
-        }
-
-        .elementor-115 .elementor-element.elementor-element-244c8b2e:not(.elementor-motion-effects-element-type-background) {
-            background-color: #000
-        }
-
-        .elementor-115 .elementor-element.elementor-element-244c8b2e {
-            transition: background .3s, border .3s, border-radius .3s, box-shadow .3s;
-            margin-top: 0px;
-            margin-bottom: 0px
-        }
-
-        .elementor-115 .elementor-element.elementor-element-244c8b2e>.elementor-shape-bottom .elementor-shape-fill {
-            fill: #eca807
-        }
-
-        .elementor-115 .elementor-element.elementor-element-244c8b2e>.elementor-shape-bottom svg {
-            height: 78px
-        }
-
-        .elementor-115 .elementor-element.elementor-element-684acb74:not(.elementor-motion-effects-element-type-background) {
-            background-color: #000
-        }
-
-        .elementor-115 .elementor-element.elementor-element-684acb74 {
-            transition: background .3s, border .3s, border-radius .3s, box-shadow .3s
-        }
-
-        .elementor-115 .elementor-element.elementor-element-11777bdb {
-            text-align: center
-        }
-
-        .elementor-115 .elementor-element.elementor-element-11777bdb .elementor-heading-title {
-            color: #f3f7f9
-        }
-
-        .elementor-115 .elementor-element.elementor-element-61fe316a:not(.elementor-motion-effects-element-type-background) {
-            background-color: #000
-        }
-
-        .elementor-115 .elementor-element.elementor-element-61fe316a {
-            transition: background .3s, border .3s, border-radius .3s, box-shadow .3s
-        }
-
-        .elementor-115 .elementor-element.elementor-element-2c2d38fc {
-            text-align: center
-        }
-
-        .elementor-115 .elementor-element.elementor-element-48205bd9 {
-            text-align: center
-        }
-
-        .elementor-115 .elementor-element.elementor-element-6cbe9bd9 {
-            text-align: center
-        }
-
-        .elementor-115 .elementor-element.elementor-element-6b2f550b:not(.elementor-motion-effects-element-type-background) {
-            background-color: #000
-        }
-
-        .elementor-115 .elementor-element.elementor-element-6b2f550b {
-            transition: background .3s, border .3s, border-radius .3s, box-shadow .3s;
-            padding: 0px 0px 8px 0px
-        }
-
-        .elementor-115 .elementor-element.elementor-element-2fbfa787 {
-            text-align: center
-        }
-
-        .elementor-115 .elementor-element.elementor-element-65cbc2c8 {
-            text-align: center
-        }
-
-        .elementor-115 .elementor-element.elementor-element-7dc5c62f {
-            text-align: center
-        }
-
-        .elementor-115 .elementor-element.elementor-element-abc5169:not(.elementor-motion-effects-element-type-background) {
-            background-color: #000
-        }
-
-        .elementor-115 .elementor-element.elementor-element-abc5169 {
-            transition: background .3s, border .3s, border-radius .3s, box-shadow .3s
-        }
-
-        .elementor-115 .elementor-element.elementor-element-3a3acb8a:not(.elementor-motion-effects-element-type-background) {
-            background-color: #000
-        }
-
-        .elementor-115 .elementor-element.elementor-element-3a3acb8a {
-            transition: background .3s, border .3s, border-radius .3s, box-shadow .3s;
-            padding: 28px 0px 0px 0px
-        }
-
-        .elementor-115 .elementor-element.elementor-element-3a3acb8a>.elementor-shape-bottom .elementor-shape-fill {
-            fill: #dd9e08
-        }
-
-        .elementor-115 .elementor-element.elementor-element-3a3acb8a>.elementor-shape-bottom svg {
-            height: 67px;
-            transform: translateX(-50%) rotateY(180deg)
-        }
-
-        .elementor-115 .elementor-element.elementor-element-3e4b2c73:not(.elementor-motion-effects-element-type-background) {
-            background-color: #000
-        }
-
-        .elementor-115 .elementor-element.elementor-element-3e4b2c73 {
-            transition: background .3s, border .3s, border-radius .3s, box-shadow .3s
-        }
-
-        .elementor-115 .elementor-element.elementor-element-65c0fd19>.elementor-element-populated {
-            margin: -44px 0px -44px 0px;
-            --e-column-margin-right: 0px;
-            --e-column-margin-left: 0px
-        }
-
-        .elementor-115 .elementor-element.elementor-element-67d38183 {
-            color: #fff;
-            font-family: "Roboto", Sans-serif;
-            font-size: 39px;
-            font-weight: 600
-        }
-
-        .elementor-115 .elementor-element.elementor-element-32dbb143 .elementor-button {
-            background-color: #d70c0c;
-            border-radius: 21px 21px 21px 21px
-        }
-
-        .elementor-115 .elementor-element.elementor-element-2ba69b04:not(.elementor-motion-effects-element-type-background) {
-            background-color: #000
-        }
-
-        .elementor-115 .elementor-element.elementor-element-2ba69b04 {
-            box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, .5);
-            transition: background .3s, border .3s, border-radius .3s, box-shadow .3s;
-            margin-top: 0px;
-            margin-bottom: 0px
-        }
-
-        .elementor-115 .elementor-element.elementor-element-2ba69b04 a {
-            color: #cb0505
-        }
-
-        .elementor-115 .elementor-element.elementor-element-6ea4bb27>.elementor-element-populated {
-            border-style: groove;
-            border-color: #e10b0b;
-            box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, .5);
-            transition: background .3s, border .3s, border-radius .3s, box-shadow .3s;
-            margin: 0px 0px 0px 0px;
-            --e-column-margin-right: 0px;
-            --e-column-margin-left: 0px
-        }
-
-        .elementor-115 .elementor-element.elementor-element-74063f3f {
-            color: #f0e9e9;
-            font-family: "Roboto", Sans-serif;
-            text-shadow: 0px 0px 10px rgba(210, 15.065217391304, 15.065217391304, .3)
-        }
-
-        .elementor-115 .elementor-element.elementor-element-2073106c:not(.elementor-motion-effects-element-type-background) {
-            background-color: #000
-        }
-
-        .elementor-115 .elementor-element.elementor-element-2073106c {
-            transition: background .3s, border .3s, border-radius .3s, box-shadow .3s
-        }
-
-        .elementor-115 .elementor-element.elementor-element-b91fae:not(.elementor-motion-effects-element-type-background) {
-            background-color: #000
-        }
-
-        .elementor-115 .elementor-element.elementor-element-b91fae {
-            transition: background .3s, border .3s, border-radius .3s, box-shadow .3s
-        }
-
-        .elementor-115 .elementor-element.elementor-element-b91fae .elementor-heading-title {
-            color: #fff
-        }
-
-        .elementor-115 .elementor-element.elementor-element-b91fae>.elementor-container {
-            text-align: justify
-        }
-
-        .elementor-115 .elementor-element.elementor-element-1bd08125>.elementor-element-populated {
-            border-style: dotted;
-            border-color: #ff0303;
-            transition: background .3s, border .3s, border-radius .3s, box-shadow .3s;
-            color: #fbfbfb;
-            text-align: left
-        }
-
-        .elementor-115 .elementor-element.elementor-element-1bd08125 .elementor-element-populated a {
-            color: #f20808
-        }
-
-        .elementor-115 .elementor-element.elementor-element-1bd08125 .elementor-element-populated a:hover {
-            color: #f3cc06
-        }
-
-        .elementor-115 .elementor-element.elementor-element-3d565f62 {
-            color: #fffbfb
-        }
-
-        .elementor-115 .elementor-element.elementor-element-fbe2ce9>.elementor-container {
-            min-height: 147px
-        }
-
-        .elementor-115 .elementor-element.elementor-element-fbe2ce9:not(.elementor-motion-effects-element-type-background) {
-            background-color: #050404
-        }
-
-        .elementor-115 .elementor-element.elementor-element-fbe2ce9 {
-            transition: background .3s, border .3s, border-radius .3s, box-shadow .3s
-        }
-
-        .elementor-115 .elementor-element.elementor-element-17301a6e:not(.elementor-motion-effects-element-type-background) {
-            background-color: #000
-        }
-
-        .elementor-115 .elementor-element.elementor-element-17301a6e {
-            transition: background .3s, border .3s, border-radius .3s, box-shadow .3s
-        }
-
-        .elementor-115 .elementor-element.elementor-element-17301a6e>.elementor-shape-bottom .elementor-shape-fill {
-            fill: #f9bd04
-        }
-
-        .elementor-115 .elementor-element.elementor-element-17301a6e>.elementor-shape-bottom svg {
-            height: 98px
-        }
-
-        @media (max-width:767px) {
-            .elementor-115 .elementor-element.elementor-element-1b3853ef>.elementor-widget-wrap>.elementor-widget:not(.elementor-widget__width-auto):not(.elementor-widget__width-initial):not(:last-child):not(.elementor-absolute) {
-                margin-bottom: 25px
-            }
-            .elementor-115 .elementor-element.elementor-element-7a423348>.elementor-widget-container {
-                margin: 0px 0px 0px 0px
-            }
-            .elementor-115 .elementor-element.elementor-element-7376e77 {
-                column-gap: 0px;
-                font-size: 34px;
-                word-spacing: .1em
-            }
-            .elementor-115 .elementor-element.elementor-element-7376e77>.elementor-widget-container {
-                margin: -64px 0px -64px 0px
-            }
-            .elementor-115 .elementor-element.elementor-element-72294e68 {
-                font-size: 14px
-            }
-            .elementor-115 .elementor-element.elementor-element-72294e68>.elementor-widget-container {
-                margin: -18px -18px -42px -18px
-            }
-            .elementor-115 .elementor-element.elementor-element-1e1af6f3>.elementor-container {
-                max-width: 562px
-            }
-            .elementor-115 .elementor-element.elementor-element-1e1af6f3 {
-                margin-top: 13px;
-                margin-bottom: 0px
-            }
-            .elementor-115 .elementor-element.elementor-element-89b6275>.elementor-container {
-                max-width: 562px
-            }
-            .elementor-115 .elementor-element.elementor-element-89b6275 {
-                margin-top: 0px;
-                margin-bottom: 0px
-            }
-            .elementor-115 .elementor-element.elementor-element-166bf783>.elementor-widget-container {
-                margin: 0px 0px 0px 0px
-            }
-            .elementor-115 .elementor-element.elementor-element-2ba69b04 {
-                margin-top: 0px;
-                margin-bottom: 0px
-            }
-            .elementor-115 .elementor-element.elementor-element-6ea4bb27>.elementor-element-populated {
-                margin: -1px -1px -1px -1px;
-                --e-column-margin-right: -1px;
-                --e-column-margin-left: -1px
-            }
-        }
-
-        h1,
-        h2,
-        h3 {
-            font-weight: 400;
-            line-height: 1.1
-        }
-
-        h1 {
-            font-size: 1.4rem;
-            line-height: 110%;
-            margin: .6rem 0 .48rem 0
-        }
-
-        h2 {
-            font-size: 1.2rem;
-            line-height: 110%;
-            margin: .6rem 0 .48rem 0
-        }
-
-        h3 {
-            font-size: 1.18rem;
-            line-height: 110%;
-            margin: .59rem 0 .59rem 0
-        }
-
-        h4 {
-            font-size: 1.18rem;
-            line-height: 110%;
-            margin: .59rem 0 .59rem 0
-        }
-
-        strong {
-            font-weight: 400
-        }
-
-        h1,
-        h2,
-        h3 {
-            color: #f5c75f;
-            text-align: left
-        }
-
-        table {
-            width: 100%
-        }
-
-        table,
-        td {
-            text-align: left;
-            border: 1px solid #f5c75f;
-            border-top: 1px solid #f5c75f
-        }
-
-        ol,
-        ul {
-            padding-left: 10px
-        }
-
-        @font-face {
-            font-family: eicons;
-            src: url("https://purple-rock-0713bc910.2.azurestaticapps.net wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.eot?5.16.0");
-            src: url("https://purple-rock-0713bc910.2.azurestaticapps.net wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.eot?5.16.0#iefix") format("embedded-opentype"), url("https://purple-rock-0713bc910.2.azurestaticapps.net wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.woff2?5.16.0") format("woff2"), url("https://purple-rock-0713bc910.2.azurestaticapps.net wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.woff?5.16.0") format("woff"), url("https://purple-rock-0713bc910.2.azurestaticapps.net wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.ttf?5.16.0") format("truetype"), url("https://purple-rock-0713bc910.2.azurestaticapps.net wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.svg?5.16.0#eicon") format("svg");
-            font-weight: 400;
-            font-style: normal
-        }
-
-        [class*=" eicon-"],
-        [class^=eicon] {
-            display: inline-block;
-            font-family: eicons;
-            font-size: inherit;
-            font-weight: 400;
-            font-style: normal;
-            font-variant: normal;
-            line-height: 1;
-            text-rendering: auto;
-            -webkit-font-smoothing: antialiased;
-            -moz-osx-font-smoothing: grayscale
-        }
-
-        @keyframes a {
-            0% {
-                transform: rotate(0deg)
-            }
-            to {
-                transform: rotate(359deg)
-            }
-        }
-
-        .elementor-kit-52 {
-            --e-global-color-primary: #6ec1e4;
-            --e-global-color-secondary: #54595f;
-            --e-global-color-text: #7a7a7a;
-            --e-global-color-accent: #61ce70;
-            --e-global-typography-primary-font-family: "Roboto";
-            --e-global-typography-primary-font-weight: 600;
-            --e-global-typography-secondary-font-family: "Roboto Slab";
-            --e-global-typography-secondary-font-weight: 400;
-            --e-global-typography-text-font-family: "Roboto";
-            --e-global-typography-text-font-weight: 400;
-            --e-global-typography-accent-font-family: "Roboto";
-            --e-global-typography-accent-font-weight: 500
-        }
-
-        .elementor-kit-52 h2 {
-            color: #deb506;
-            font-size: 26px
-        }
-
-        .elementor-kit-52 h3 {
-            color: #deb506;
-            font-size: 20px
-        }
-
-        .elementor-kit-52 h4 {
-            color: #deb506;
-            font-size: 20px
-        }
-
-        .elementor-section.elementor-section-boxed>.elementor-container {
-            max-width: 1140px
-        }
-
-        .elementor-widget:not(:last-child) {
-            margin-bottom: 20px
-        }
-
-        .elementor-element {
-            --widgets-spacing: 20px
-        }
-
-        @media (max-width:1024px) {
-            .elementor-section.elementor-section-boxed>.elementor-container {
-                max-width: 1024px
-            }
-        }
-
-        @media (max-width:767px) {
-            .elementor-section.elementor-section-boxed>.elementor-container {
-                max-width: 767px
-            }
-        }
-
-        [data-elementor-type=popup]:not(.elementor-edit-area) {
-            display: none
-        }
-
-        .elementor-widget-heading .elementor-heading-title {
-            color: var(--e-global-color-primary);
-            font-family: var(--e-global-typography-primary-font-family), Sans-serif;
-            font-weight: var(--e-global-typography-primary-font-weight)
-        }
-
-        .elementor-widget-text-editor {
-            color: var(--e-global-color-text);
-            font-family: var(--e-global-typography-text-font-family), Sans-serif;
-            font-weight: var(--e-global-typography-text-font-weight)
-        }
-
-        .elementor-widget-button .elementor-button {
-            font-family: var(--e-global-typography-accent-font-family), Sans-serif;
-            font-weight: var(--e-global-typography-accent-font-weight);
-            background-color: var(--e-global-color-accent)
-        }
-
-        .amp-wp-bf126db:not(#_#_#_#_#_) {
-            visibility: hidden;
-            position: absolute;
-            left: -9999px;
-            overflow: hidden
-        }
-
-        .amp-wp-199b6f0:not(#_#_#_#_#_) {
-            width: 100%
-        }
-
-        .amp-wp-3e9c90d:not(#_#_#_#_#_) {
-            color: #fff;
-            font-family: Ubuntu, sans-serif;
-            font-size: medium
-        }
-
-        /*# sourceURL=amp-custom.css */
-    </style>
-    <link rel="canonical" href="https://purple-rock-0713bc910.2.azurestaticapps.net ">
-    <script type="application/ld+json" class="yoast-schema-graph">
-        {
-            "@context": "https://schema.org",
-            "@graph": [{
-                "@type": "WebPage",
-                "@id": "https://purple-rock-0713bc910.2.azurestaticapps.net ",
-                "url": "https://purple-rock-0713bc910.2.azurestaticapps.net ",
-                "name": "Kingcobratoto - Daftar Situs Judi Slot Gacor Online Gampang Menang",
-                "isPartOf": {
-                    "@id": "https://purple-rock-0713bc910.2.azurestaticapps.net #website"
-                },
-                "about": {
-                    "@id": "https://purple-rock-0713bc910.2.azurestaticapps.net #organization"
-                },
-                "primaryImageOfPage": {
-                    "@id": "https://purple-rock-0713bc910.2.azurestaticapps.net #primaryimage"
-                },
-                "image": {
-                    "@id": "https://purple-rock-0713bc910.2.azurestaticapps.net #primaryimage"
-                },
-                "thumbnailUrl": "https://i0.wp.com/delivery.labs.time.com/wp-content/uploads/2022/10/logo-kingcobratoto.jpg?fit=320%2C320\u0026ssl=1",
-                "datePublished": "2022-10-22T10:10:38+00:00",
-                "dateModified": "2022-10-26T12:45:29+00:00",
-                "description": "Kingcobratoto adalah situs judi slot gacor terbaik dengan fitur judi slot online terpercaya gampang menang untuk game pragmatic play terlengkap.",
-                "breadcrumb": {
-                    "@id": "https://purple-rock-0713bc910.2.azurestaticapps.net #breadcrumb"
-                },
-                "inLanguage": "id",
-                "potentialAction": [{
-                    "@type": "ReadAction",
-                    "target": ["https://purple-rock-0713bc910.2.azurestaticapps.net "]
-                }]
-            }, {
-                "@type": "ImageObject",
-                "inLanguage": "id",
-                "@id": "https://purple-rock-0713bc910.2.azurestaticapps.net #primaryimage",
-                "url": "https://i0.wp.com/delivery.labs.time.com/wp-content/uploads/2022/10/logo-Kingcobratoto.jpg?fit=320%2C320\u0026ssl=1",
-                "contentUrl": "https://i0.wp.com/delivery.labs.time.com/wp-content/uploads/2022/10/logo-Kingcobratoto.jpg?fit=320%2C320\u0026ssl=1",
-                "width": 320,
-                "height": 320,
-                "caption": "logo Kingcobratoto"
-            }, {
-                "@type": "BreadcrumbList",
-                "@id": "https://purple-rock-0713bc910.2.azurestaticapps.net #breadcrumb",
-                "itemListElement": [{
-                    "@type": "ListItem",
-                    "position": 1,
-                    "name": "Slot Online"
-                }]
-            }, {
-                "@type": "WebSite",
-                "@id": "https://purple-rock-0713bc910.2.azurestaticapps.net #website",
-                "url": "https://purple-rock-0713bc910.2.azurestaticapps.net ",
-                "name": "Kingcobratoto",
-                "description": "Daftar Situs Judi Slot Gacor Online Gampang Menang",
-                "publisher": {
-                    "@id": "https://purple-rock-0713bc910.2.azurestaticapps.net #organization"
-                },
-                "potentialAction": [{
-                    "@type": "SearchAction",
-                    "target": {
-                        "@type": "EntryPoint",
-                        "urlTemplate": "https://purple-rock-0713bc910.2.azurestaticapps.net ?s={search_term_string}"
-                    },
-                    "query-input": "required name=search_term_string"
-                }],
-                "inLanguage": "id"
-            }, {
-                "@type": "Organization",
-                "@id": "https://purple-rock-0713bc910.2.azurestaticapps.net #organization",
-                "name": "Kingcobratoto",
-                "url": "https://purple-rock-0713bc910.2.azurestaticapps.net ",
-                "logo": {
-                    "@type": "ImageObject",
-                    "inLanguage": "id",
-                    "@id": "https://purple-rock-0713bc910.2.azurestaticapps.net #/schema/logo/image/",
-                    "url": "https://i0.wp.com/delivery.labs.time.com/wp-content/uploads/2022/10/logo-Kingcobratoto.jpg?fit=320%2C320\u0026ssl=1",
-                    "contentUrl": "https://i0.wp.com/delivery.labs.time.com/wp-content/uploads/2022/10/logo-Kingcobratoto.jpg?fit=320%2C320\u0026ssl=1",
-                    "width": 320,
-                    "height": 320,
-                    "caption": "Kingcobratoto"
-                },
-                "image": {
-                    "@id": "https://purple-rock-0713bc910.2.azurestaticapps.net #/schema/logo/image/"
-                }
-            }]
-        }
-    </script>
-    <link rel="alternate" type="application/rss+xml" title="Kingcobratoto » Feed" href="https://purple-rock-0713bc910.2.azurestaticapps.net feed/">
-    <link rel="alternate" type="application/rss+xml" title="Kingcobratoto- » Umpan Komentar" href="https://purple-rock-0713bc910.2.azurestaticapps.net comments/feed/">
-    <link rel="https://api.w.org/" href="https://purple-rock-0713bc910.2.azurestaticapps.net wp-json/">
-    <link rel="alternate" type="application/json" href="https://purple-rock-0713bc910.2.azurestaticapps.net wp-json/wp/v2/pages/46">
-    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://purple-rock-0713bc910.2.azurestaticapps.net xmlrpc.php?rsd">
-    <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://purple-rock-0713bc910.2.azurestaticapps.net wp-includes/wlwmanifest.xml">
-    <link rel="shortlink" href="https://wp.me/Peja1e-K">
-    <link rel="alternate" type="application/json+oembed" href="https://purple-rock-0713bc910.2.azurestaticapps.net wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdelivery.labs.time.com%2F">
-    <link rel="alternate" type="text/xml+oembed" href="https://purple-rock-0713bc910.2.azurestaticapps.net wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdelivery.labs.time.com%2F&amp;format=xml">
-    <link rel="apple-touch-icon" href="https://i.postimg.cc/TYKSMvrB/favicon.png?fit=180%2C180&amp;ssl=1">
-    <title>KINGCOBRATOTO - Daftar Situs Judi Slot Gacor Online Gampang Menang</title>
+
+<title>Live Draw SGP - Live SGP - Live Draw Singapore - Live Singapore</title>
+
+<meta name="description"  content="Live Draw SGP - Live SGP - Live Draw Singapore - Live Singapore - Live Singapura - Live Draw SG tercepat - Live Result Singapore Pools" />
+<meta content='id' name='language'/>
+<meta content='id' name='geo.country'/>
+<meta content='Indonesia' name='geo.placename'/>
+<meta name="keywords" content="Live Draw SGP, Live Result SGP, Live Draw Singapore, Live Draw Singapura, Live Singapore Pools, Hasil Togel Singapura, Hasil Result SGP, Keluaran SGP" />
+<meta name="robots" content="index, follow" />
+<meta property="og:type" content="object" />
+<meta property="og:title" content="Live Draw SGP - Live Singapore Pools - Live Result SGP" />
+<meta property="og:description" content="Live Draw SGP - Live Singapore Pools - Live Result SGP, Website Pengeluaran Nomor Togel Singapura, Live Draw Singapore, Hasil Keluaran SGP Hari Ini." />
+<meta property="og:url" content="https://purple-rock-0713bc910.2.azurestaticapps.net/" />
+<meta property="og:site_name" content="Live Draw SGP - Live Singapore Pools - Live Result SGP" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" href="img/favicon-sgp-live.png" sizes="32x32" />
+<link rel="icon" href="img/favicon-sgp-live.png" sizes="192x192" />
+<link rel="apple-touch-icon-precomposed" href="img/favicon-live-sgp.png" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet">
+
+
+
+
+<script>
+ $(document).ready(function() {
+   $(".sgp").load("sgp.php");
+   var refreshId = setInterval(function() {
+      $(".sgp").load('sgp.php?randval='+ Math.random());
+   }, 20000);
+   $.ajaxSetup({ cache: false });
+});
+</script>
+
+
+<script>
+ $(document).ready(function() {
+   $(".toto").load("toto.php");
+   var refreshId = setInterval(function() {
+      $(".toto").load('toto.php?randval='+ Math.random());
+   }, 20000);
+   $.ajaxSetup({ cache: false });
+});
+</script>
+
+<style>
+/*-------- CSS -------------*/
+/* ------------------Reset--------------------- */
+a,abbr,acronym,address,applet,article,aside,audio,b,blockquote,big,body,center,canvas,caption,cite,code,command,datalist,dd,del,details,dfn,dl,div,dt,em,embed,fieldset,figcaption,figure,font,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,keygen,label,legend,li,meter,nav,object,ol,output,p,pre,progress,q,s,samp,section,small,span,source,strike,strong,sub,sup,table,tbody,tfoot,thead,th,tr,tdvideo,tt,u,ul,var{background:transparent;border:0 none;font-size:100%;margin:0;padding:0;border:0;outline:0;vertical-align:top;}ol, ul {list-style:none;}blockquote, q {quotes:none;}table, table td {padding:0;border:none;border-collapse:collapse;}img {vertical-align:top;}embed {vertical-align:top;}
+article, aside, audio, canvas, command, datalist, details, embed, figcaption, figure, footer, header, hgroup, keygen, meter, nav, output, progress, section, source, video {display:block;}
+mark, rp, rt, ruby, summary, time {display:inline;}
+input, textarea {border:0; padding:0; margin:0; outline: 0;}
+iframe {border:0; margin:0; padding:0;}
+input, textarea, select {margin:0; padding:0px;}
+
+/* start */
+
+body {
+	background-color: black;
+	font-family: 'Roboto Mono', monospace;
+	
+}
+
+div {
+	box-sizing: border-box;
+	
+}
+
+#myTable {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #a8b2bc;
+    font-size: 18px
+}
+
+#myTable td,#myTable th {
+    text-align: center;
+    padding: 3px 0 3px 0;
+    border: 2px solid #444;
+    font-size: 15px;
+    color: #fff
+}
+
+#myTable th {
+    color: #fff;
+    background-color: #0001ff;
+    font-size: 15px
+}
+
+#myTable tr {
+    border-bottom: 1px solid 3px
+}
+
+#myTable tr:hover {
+    border-bottom: 1px solid #d25503
+}
+
+
+.tnglress {
+    background: #ff0;
+    font-size: 24px;
+    text-align: center;
+    border: 1px #000 solid
+}
+
+.varress {
+    font-size: 20px;
+    text-align: center;
+    border: 1px #a7a6a6 solid;
+    color: fff
+}
+.container {
+	width: 65%;
+	margin: auto;
+	
+}
+
+.head {
+	width: 100%;
+	text-align: center;
+	padding: 15px;
+	background: #ffffff;
+}
+
+.logo {
+	display: block;
+	width: 450px;
+	height: 150px;
+	background: url(/img/logo-sgp-live.png) center no-repeat;
+	background-size: 100% 100%;
+	margin: auto;
+}
+
+.menu {
+	width: 100%;
+	text-align: center;
+	display: block;
+	background: #0e01c8;
+	padding: 30px 0px;
+}
+
+.menu a {
+	display: inline-block;
+	width: 15%;
+	text-decoration: none;
+	text-align: center;
+	color: white;
+	
+}
+
+.banner1 {
+	width: 100%;
+	display: block;
+	text-align: center;
+}
+
+.banner1 img {
+	width: 49.5%;
+	display: inline-block;
+	border: 1px gold solid;
+	box-sizing: border-box;
+}
+
+.banner2 {
+	width: 100%;
+	display: block;
+	text-align: center;
+}
+
+.banner2 img {
+	width: 49.5%;
+	display: inline-block;
+	border: 1px gold solid;
+	box-sizing: border-box;
+}
+
+.banner3 {
+	width: 100%;
+	display: block;
+	text-align: center;
+	margin-top: 30px;
+}
+
+.banner3 img {
+	width: 49%;
+	display: inline-block;
+	border: 1px gold solid;
+	box-sizing: border-box;
+}
+
+.iklan {
+	width: 100%;
+}
+
+.iklan img {
+	width: 100%;
+}
+
+.banner-float {
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    bottom: 1px;
+    z-index: 9999
+}
+
+.banner-float img {
+    width: 728px
+}
+
+.content {
+	width: 100%;
+	padding: 15px;
+	border: 1px solid white;
+}
+
+.content h1 {
+	
+	text-align: center;
+	font-size: 24px;
+	
+}
+
+.content h2 {
+	
+	text-align: center;
+	font-size: 20px;
+	margin-top: 25px;
+}
+
+.content a {
+	text-decoration: none;
+	color: white;
+}
+
+.content p {
+	text-align: left;
+	color: white;
+}
+
+.sgp {
+	width: 80%;
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.judul {
+	color: #fb0f36;
+	text-align: center;
+	font-size: 20px;
+	margin: 15px 0px;
+}
+
+.sgp table {
+	width: 100%;
+	
+}
+
+.sgp td {
+	text-align: center;
+	height: 50px;
+	vertical-align: middle;
+}
+
+.prize {
+	font-size: 28px;
+	background: rgba(73,155,234,1);
+background: -moz-linear-gradient(top, rgb(3 63 121) 0%, rgb(0 36 74) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(73,155,234,1)), color-stop(100%, rgba(17,63,112,1)));
+background: -webkit-linear-gradient(top, rgb(3 63 121) 0%, rgb(0 36 74) 100%);
+background: -o-linear-gradient(top, rgb(3 63 121) 0%, rgb(0 36 74) 100%);
+background: -ms-linear-gradient(top, rgb(3 63 121) 0%, rgb(0 36 74) 100%);
+background: linear-gradient(to bottom, rgb(14 1 200) 0%, rgb(5 0 133) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#499bea', endColorstr='#113f70', GradientType=0 );
+color: white;
+width: 50%;
+box-sizing: border-box;
+	border: 1px solid black;
+}
+
+.nomprize {
+	font-size: 28px;
+	box-sizing: border-box;
+	border: 1px solid black;
+	width: 50%;
+	background: white;
+}
+
+.nomprize2 {
+	font-size: 28px;
+	box-sizing: border-box;
+	border: 1px solid black;
+	width: 25%;
+	background: white;
+}
+
+.toto {
+	width: 80%;
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.toto table {
+	width: 100%;
+	
+}
+
+.toto22 {
+	width: 12.5%;
+	height: 60px;
+	vertical-align: middle;
+	text-align: center;
+	box-sizing: border-box;
+	color: red;
+	font-size: 36px;
+	border: 1px red solid;
+}
+
+.prtt {
+	width: 50%;
+	height: 60px;
+	vertical-align: middle;
+	text-align: center;
+	box-sizing: border-box;
+	background: red;
+	font-size: 36px;
+	border: 1px red solid;
+	color: white;
+}
+
+.prtt2 {
+	width: 50%;
+	height: 60px;
+	vertical-align: middle;
+	text-align: center;
+	box-sizing: border-box;
+	color: red;
+	font-size: 36px;
+	border: 1px red solid;
+	
+}
+
+.end {
+	width: 100%;
+	height: 100px;
+	background: #5d5d5d;
+	box-sizing: border-box;
+	text-align: center;
+	padding: 20px 0px;
+}
+
+.end h3 {
+	color: white;
+	margin: auto;
+	font-size: 28px;
+}
+
+.end a {
+	text-decoration: none;
+	color: white;
+}
+
+.out-link {
+	list-style-type: square;
+	color: white;
+	margin: 0px 35px;
+}
+
+.out-link a {
+	text-decoration: none;
+	color: white;
+	
+}
+
+.notice {
+	width: 100%;
+	background: white;
+	box-sizing: border-box;
+	padding: 15px;
+}
+
+.pengumuman {
+	width: 100%;
+	font-size: 26px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.notice p {
+	color: black;
+	
+}
+
+
+@media only screen and (max-device-width: 1000px) {
+	.container {
+		width: 100%;
+		
+	}
+	
+	.logo {
+		width: 80%;
+		height: 15%;
+	}
+	
+	.menu {
+		padding: 0px;
+	}
+	
+	.menu a {
+		display: block;
+		font-size: 30px;
+		width: 100%;
+		padding: 15px 0px;
+		border: 1px solid white;
+	}
+	
+	.banner1 {
+		display: block;
+		
+	}
+	.banner1 img {
+		display: block;
+		width: 100%;
+	}
+	
+	.banner2 {
+		display: block;
+		
+	}
+	.banner2 img {
+		display: block;
+		width: 100%;
+	}
+	
+	.banner3 {
+		display: block;
+		
+	}
+	.banner3 img {
+		display: block;
+		width: 100%;
+	}
+    .banner-float {
+        width: 100%
+    }
+
+    .banner-float img {
+        width: 100%
+    }
+	
+	.sgp {
+		width: 100%;
+		
+	}
+	
+	.toto {
+		width: 100%;
+		
+	}
+
+    .result h3 {
+        font-size: 20px
+    }
+
+    .tnglress {
+        font-size: 16px
+    }
+
+	
+	.lassres {
+		width: 100%;
+		
+	}
+.end h3{
+font-size:12px;
+}
+	
+}
+</style>
+
 </head>
+<body>
 
-<body class="home page-template page-template-elementor_canvas page page-id-46 group-blog right-sidebar fullwidth_layout elementor-default elementor-template-canvas elementor-kit-52">
-    <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" data-amp-original-style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" class="amp-wp-bf126db"><defs><filter id="wp-duotone-dark-grayscale"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0 0.49803921568627"></fefuncr><fefuncg type="table" tablevalues="0 0.49803921568627"></fefuncg><fefuncb type="table" tablevalues="0 0.49803921568627"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg>
-    <svg
-        xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" data-amp-original-style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" class="amp-wp-bf126db">
-        <defs>
-            <filter id="wp-duotone-grayscale">
-                <fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix>
-                <fecomponenttransfer color-interpolation-filters="sRGB">
-                    <fefuncr type="table" tablevalues="0 1"></fefuncr>
-                    <fefuncg type="table" tablevalues="0 1"></fefuncg>
-                    <fefuncb type="table" tablevalues="0 1"></fefuncb>
-                    <fefunca type="table" tablevalues="1 1"></fefunca>
-                </fecomponenttransfer>
-                <fecomposite in2="SourceGraphic" operator="in"></fecomposite>
-            </filter>
-        </defs>
-        </svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" data-amp-original-style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" class="amp-wp-bf126db"><defs><filter id="wp-duotone-purple-yellow"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0.54901960784314 0.98823529411765"></fefuncr><fefuncg type="table" tablevalues="0 1"></fefuncg><fefuncb type="table" tablevalues="0.71764705882353 0.25490196078431"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg>
-        <svg
-            xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" data-amp-original-style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" class="amp-wp-bf126db">
-            <defs>
-                <filter id="wp-duotone-blue-red">
-                    <fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix>
-                    <fecomponenttransfer color-interpolation-filters="sRGB">
-                        <fefuncr type="table" tablevalues="0 1"></fefuncr>
-                        <fefuncg type="table" tablevalues="0 0.27843137254902"></fefuncg>
-                        <fefuncb type="table" tablevalues="0.5921568627451 0.27843137254902"></fefuncb>
-                        <fefunca type="table" tablevalues="1 1"></fefunca>
-                    </fecomponenttransfer>
-                    <fecomposite in2="SourceGraphic" operator="in"></fecomposite>
-                </filter>
-            </defs>
-            </svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" data-amp-original-style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" class="amp-wp-bf126db"><defs><filter id="wp-duotone-midnight"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0 0"></fefuncr><fefuncg type="table" tablevalues="0 0.64705882352941"></fefuncg><fefuncb type="table" tablevalues="0 1"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg>
-            <svg
-                xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" data-amp-original-style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" class="amp-wp-bf126db">
-                <defs>
-                    <filter id="wp-duotone-magenta-yellow">
-                        <fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix>
-                        <fecomponenttransfer color-interpolation-filters="sRGB">
-                            <fefuncr type="table" tablevalues="0.78039215686275 1"></fefuncr>
-                            <fefuncg type="table" tablevalues="0 0.94901960784314"></fefuncg>
-                            <fefuncb type="table" tablevalues="0.35294117647059 0.47058823529412"></fefuncb>
-                            <fefunca type="table" tablevalues="1 1"></fefunca>
-                        </fecomponenttransfer>
-                        <fecomposite in2="SourceGraphic" operator="in"></fecomposite>
-                    </filter>
-                </defs>
-                </svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" data-amp-original-style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" class="amp-wp-bf126db"><defs><filter id="wp-duotone-purple-green"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0.65098039215686 0.40392156862745"></fefuncr><fefuncg type="table" tablevalues="0 1"></fefuncg><fefuncb type="table" tablevalues="0.44705882352941 0.4"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg>
-                <svg
-                    xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" data-amp-original-style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" class="amp-wp-bf126db">
-                    <defs>
-                        <filter id="wp-duotone-blue-orange">
-                            <fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix>
-                            <fecomponenttransfer color-interpolation-filters="sRGB">
-                                <fefuncr type="table" tablevalues="0.098039215686275 1"></fefuncr>
-                                <fefuncg type="table" tablevalues="0 0.66274509803922"></fefuncg>
-                                <fefuncb type="table" tablevalues="0.84705882352941 0.41960784313725"></fefuncb>
-                                <fefunca type="table" tablevalues="1 1"></fefunca>
-                            </fecomponenttransfer>
-                            <fecomposite in2="SourceGraphic" operator="in"></fecomposite>
-                        </filter>
-                    </defs>
-                    </svg>
-                    <div data-elementor-type="page" data-elementor-id="115" class="elementor elementor-115">
-                        <section class="elementor-section elementor-top-section elementor-element elementor-element-58efba0f elementor-section-height-min-height elementor-section-boxed elementor-section-height-default elementor-section-items-middle" data-id="58efba0f" data-element_type="section"
-                            data-settings='{"background_background":"classic"}'>
-                            <div class="elementor-container elementor-column-gap-default">
-                                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-1b3853ef" data-id="1b3853ef" data-element_type="column">
-                                    <div class="elementor-widget-wrap elementor-element-populated">
-                                        <div class="elementor-element elementor-element-7a423348 elementor-widget elementor-widget-image" data-id="7a423348" data-element_type="widget" data-widget_type="image.default">
-                                            <div class="elementor-widget-container">
-                                                <amp-img src="https://i.postimg.cc/KvRKx6ML/KINGCOBRATOTO-BANDAR-TOGEL-4-D-TERBAIK.png?fit=300%2C93&amp;ssl=1" title="logo-Kingcobratoto-slot-online.png" alt="logo-Kingcobratoto-slot-online.png" width="300" height="93" class="amp-wp-enforced-sizes i-amphtml-layout-intrinsic i-amphtml-layout-size-defined"
-                                                    layout="intrinsic" i-amphtml-layout="intrinsic">
-                                                    <i-amphtml-sizer slot="i-amphtml-svc" class="i-amphtml-sizer"><img alt="" aria-hidden="true" class="i-amphtml-intrinsic-sizer" role="presentation" src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjkzIiB3aWR0aD0iMzAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="></i-amphtml-sizer><noscript><img src="https://i.postimg.cc/KvRKx6ML/KINGCOBRATOTO-BANDAR-TOGEL-4-D-TERBAIK.png?fit=300%2C93&amp;ssl=1" title="logo-Kingcobratoto-slot-online.png" alt="logo-Kingcobratoto-slot-online.png" width="300" height="93"></noscript></amp-img>
-                                            </div>
-                                        </div>
-                                        <div class="elementor-element elementor-element-7376e77 elementor-widget elementor-widget-text-editor" data-id="7376e77" data-element_type="widget" data-widget_type="text-editor.default">
-                                            <div class="elementor-widget-container">
-                                                <p><strong>SLOT ONLINE #1</strong></p>
-                                            </div>
-                                        </div>
-                                        <div class="elementor-element elementor-element-72294e68 elementor-widget elementor-widget-text-editor" data-id="72294e68" data-element_type="widget" data-widget_type="text-editor.default">
-                                            <div class="elementor-widget-container">
-                                                <p>RTP Slot Gacor Dengan Winrate 85%</p>
-                                            </div>
-                                        </div>
-                                        <section class="elementor-section elementor-inner-section elementor-element elementor-element-1e1af6f3 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="1e1af6f3" data-element_type="section">
-                                            <div class="elementor-container elementor-column-gap-default">
-                                                <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-383e5f91" data-id="383e5f91" data-element_type="column">
-                                                    <div class="elementor-widget-wrap elementor-element-populated">
-                                                        <div class="elementor-element elementor-element-75e7d4ba elementor-align-justify elementor-widget elementor-widget-button" data-id="75e7d4ba" data-element_type="widget" data-widget_type="button.default">
-                                                            <div class="elementor-widget-container">
-                                                                <div class="elementor-button-wrapper">
-                                                                    <a href="https://www.kingcobratogel.com/m/link.php?member=semogaaja1" class="elementor-button-link elementor-button elementor-size-md" role="button">
-						<span class="elementor-button-content-wrapper">
-						<span class="elementor-button-text">DAFTAR</span>
-		</span>
-					</a>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-d8b228d" data-id="d8b228d" data-element_type="column">
-                                                    <div class="elementor-widget-wrap elementor-element-populated">
-                                                        <div class="elementor-element elementor-element-24a9bfe elementor-align-justify elementor-widget elementor-widget-button" data-id="24a9bfe" data-element_type="widget" data-widget_type="button.default">
-                                                            <div class="elementor-widget-container">
-                                                                <div class="elementor-button-wrapper">
-                                                                    <a href="https://purple-rock-0713bc910.2.azurestaticapps.net " class="elementor-button-link elementor-button elementor-size-md" role="button">
-						<span class="elementor-button-content-wrapper">
-						<span class="elementor-button-text">LOGIN</span>
-		</span>
-					</a>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </section>
-                                        <section class="elementor-section elementor-inner-section elementor-element elementor-element-89b6275 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="89b6275" data-element_type="section">
-                                            <div class="elementor-container elementor-column-gap-default">
-                                                <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-7081ccdc" data-id="7081ccdc" data-element_type="column">
-                                                    <div class="elementor-widget-wrap elementor-element-populated">
-                                                        <div class="elementor-element elementor-element-3f685539 elementor-button-info elementor-align-justify elementor-widget elementor-widget-button" data-id="3f685539" data-element_type="widget" data-widget_type="button.default">
-                                                            <div class="elementor-widget-container">
-                                                                <div class="elementor-button-wrapper">
-                                                                    <a href="https://rebrand.ly/LIVE-CHAT-KINGCOBRATOTO" class="elementor-button-link elementor-button elementor-size-md" role="button">
-						<span class="elementor-button-content-wrapper">
-						<span class="elementor-button-text">LIVECHAT</span>
-		</span>
-					</a>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-24143ef9" data-id="24143ef9" data-element_type="column">
-                                                    <div class="elementor-widget-wrap elementor-element-populated">
-                                                        <div class="elementor-element elementor-element-166bf783 elementor-align-justify elementor-widget elementor-widget-button" data-id="166bf783" data-element_type="widget" data-widget_type="button.default">
-                                                            <div class="elementor-widget-container">
-                                                                <div class="elementor-button-wrapper">
-                                                                    <a href="https://rebrand.ly/LIVE-CHAT-KINGCOBRATOTO" class="elementor-button-link elementor-button elementor-size-md" role="button">
-						<span class="elementor-button-content-wrapper">
-						<span class="elementor-button-text">WHATSAPP</span>
-		</span>
-					</a>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </section>
-                                    </div>
-                                </div>
-                            </div>
-                        </section>
-                        <section class="elementor-section elementor-top-section elementor-element elementor-element-244c8b2e elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="244c8b2e" data-element_type="section" data-settings='{"background_background":"classic","shape_divider_bottom":"tilt"}'>
-                            <div class="elementor-shape elementor-shape-bottom" data-negative="false">
-                                <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 1000 100" preserveaspectratio="none">
-	<path class="elementor-shape-fill" d="M0,6V0h1000v100L0,6z" />
-</svg> </div>
-                            <div class="elementor-container elementor-column-gap-default">
-                                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-674aa0e8" data-id="674aa0e8" data-element_type="column">
-                                    <div class="elementor-widget-wrap">
-                                    </div>
-                                </div>
-                            </div>
-                        </section>
-                        <section class="elementor-section elementor-top-section elementor-element elementor-element-684acb74 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="684acb74" data-element_type="section" data-settings='{"background_background":"classic"}'>
-                            <div class="elementor-container elementor-column-gap-default">
-                                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-5435c793" data-id="5435c793" data-element_type="column">
-                                    <div class="elementor-widget-wrap elementor-element-populated">
-                                        <div class="elementor-element elementor-element-11777bdb elementor-widget elementor-widget-heading" data-id="11777bdb" data-element_type="widget" data-widget_type="heading.default">
-                                            <div class="elementor-widget-container">
-                                                <h1 class="elementor-heading-title elementor-size-large">KINGCOBRATOTO | Daftar Situs Judi Slot Gacor Online Gampang Menang</h1>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </section>
-                        <section class="elementor-section elementor-top-section elementor-element elementor-element-61fe316a elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="61fe316a" data-element_type="section" data-settings='{"background_background":"classic"}'>
-                            <div class="elementor-container elementor-column-gap-default">
-                                <div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-713bd42" data-id="713bd42" data-element_type="column">
-                                    <div class="elementor-widget-wrap elementor-element-populated">
-                                        <div class="elementor-element elementor-element-2c2d38fc elementor-widget elementor-widget-image" data-id="2c2d38fc" data-element_type="widget" data-widget_type="image.default">
-                                            <div class="elementor-widget-container">
-                                                <a href="">
-                                                    <amp-img width="271" height="110" src="https://i0.wp.com/delivery.labs.time.com/wp-content/uploads/2022/10/pp-1-1.webp?fit=271%2C110&amp;ssl=1" class="attachment-medium_large size-medium_large amp-wp-enforced-sizes i-amphtml-layout-intrinsic i-amphtml-layout-size-defined"
-                                                        alt="" layout="intrinsic" i-amphtml-layout="intrinsic">
-                                                        <i-amphtml-sizer slot="i-amphtml-svc" class="i-amphtml-sizer"><img alt="" aria-hidden="true" class="i-amphtml-intrinsic-sizer" role="presentation" src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjExMCIgd2lkdGg9IjI3MSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2ZXJzaW9uPSIxLjEiLz4="></i-amphtml-sizer><noscript><img width="271" height="110" src="https://i0.wp.com/delivery.labs.time.com/wp-content/uploads/2022/10/pp-1-1.webp?fit=271%2C110&amp;ssl=1" alt="" loading="lazy"></noscript></amp-img>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-69d25062" data-id="69d25062" data-element_type="column">
-                                    <div class="elementor-widget-wrap elementor-element-populated">
-                                        <div class="elementor-element elementor-element-48205bd9 elementor-widget elementor-widget-image" data-id="48205bd9" data-element_type="widget" data-widget_type="image.default">
-                                            <div class="elementor-widget-container">
-                                                <a href="https://purple-rock-0713bc910.2.azurestaticapps.net ">
-                                                    <amp-img width="271" height="110" src="https://i0.wp.com/delivery.labs.time.com/wp-content/uploads/2022/10/spadegaming-1-1.webp?fit=271%2C110&amp;ssl=1" class="attachment-medium_large size-medium_large amp-wp-enforced-sizes i-amphtml-layout-intrinsic i-amphtml-layout-size-defined"
-                                                        alt="" layout="intrinsic" i-amphtml-layout="intrinsic">
-                                                        <i-amphtml-sizer slot="i-amphtml-svc" class="i-amphtml-sizer"><img alt="" aria-hidden="true" class="i-amphtml-intrinsic-sizer" role="presentation" src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjExMCIgd2lkdGg9IjI3MSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2ZXJzaW9uPSIxLjEiLz4="></i-amphtml-sizer><noscript><img width="271" height="110" src="https://i0.wp.com/delivery.labs.time.com/wp-content/uploads/2022/10/spadegaming-1-1.webp?fit=271%2C110&amp;ssl=1" alt="" loading="lazy"></noscript></amp-img>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-35f50b2c" data-id="35f50b2c" data-element_type="column">
-                                    <div class="elementor-widget-wrap elementor-element-populated">
-                                        <div class="elementor-element elementor-element-6cbe9bd9 elementor-widget elementor-widget-image" data-id="6cbe9bd9" data-element_type="widget" data-widget_type="image.default">
-                                            <div class="elementor-widget-container">
-                                                <a href="">
-                                                    <amp-img width="271" height="110" src="https://i0.wp.com/delivery.labs.time.com/wp-content/uploads/2022/10/joker-1-1.webp?fit=271%2C110&amp;ssl=1" class="attachment-medium_large size-medium_large amp-wp-enforced-sizes i-amphtml-layout-intrinsic i-amphtml-layout-size-defined"
-                                                        alt="" layout="intrinsic" i-amphtml-layout="intrinsic">
-                                                        <i-amphtml-sizer slot="i-amphtml-svc" class="i-amphtml-sizer"><img alt="" aria-hidden="true" class="i-amphtml-intrinsic-sizer" role="presentation" src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjExMCIgd2lkdGg9IjI3MSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2ZXJzaW9uPSIxLjEiLz4="></i-amphtml-sizer><noscript><img width="271" height="110" src="https://i0.wp.com/delivery.labs.time.com/wp-content/uploads/2022/10/joker-1-1.webp?fit=271%2C110&amp;ssl=1" alt="" loading="lazy"></noscript></amp-img>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-aa9e3bd" data-id="aa9e3bd" data-element_type="column">
-                                    <div class="elementor-widget-wrap elementor-element-populated">
-                                        <div class="elementor-element elementor-element-39b76f75 elementor-widget elementor-widget-image" data-id="39b76f75" data-element_type="widget" data-widget_type="image.default">
-                                            <div class="elementor-widget-container">
-                                                <a href="https://purple-rock-0713bc910.2.azurestaticapps.net ">
-                                                    <amp-img width="271" height="110" src="https://i0.wp.com/delivery.labs.time.com/wp-content/uploads/2022/10/microgaming-1-1.webp?fit=271%2C110&amp;ssl=1" class="attachment-medium_large size-medium_large amp-wp-enforced-sizes i-amphtml-layout-intrinsic i-amphtml-layout-size-defined"
-                                                        alt="" layout="intrinsic" i-amphtml-layout="intrinsic">
-                                                        <i-amphtml-sizer slot="i-amphtml-svc" class="i-amphtml-sizer"><img alt="" aria-hidden="true" class="i-amphtml-intrinsic-sizer" role="presentation" src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjExMCIgd2lkdGg9IjI3MSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2ZXJzaW9uPSIxLjEiLz4="></i-amphtml-sizer><noscript><img width="271" height="110" src="https://i0.wp.com/delivery.labs.time.com/wp-content/uploads/2022/10/microgaming-1-1.webp?fit=271%2C110&amp;ssl=1" alt="" loading="lazy"></noscript></amp-img>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </section>
-                        <section class="elementor-section elementor-top-section elementor-element elementor-element-6b2f550b elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="6b2f550b" data-element_type="section" data-settings='{"background_background":"classic"}'>
-                            <div class="elementor-container elementor-column-gap-default">
-                                <div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-2df2b9d8" data-id="2df2b9d8" data-element_type="column">
-                                    <div class="elementor-widget-wrap elementor-element-populated">
-                                        <div class="elementor-element elementor-element-2fbfa787 elementor-widget elementor-widget-image" data-id="2fbfa787" data-element_type="widget" data-widget_type="image.default">
-                                            <div class="elementor-widget-container">
-                                                <a href="https://purple-rock-0713bc910.2.azurestaticapps.net ">
-                                                    <amp-img width="271" height="110" src="https://i0.wp.com/delivery.labs.time.com/wp-content/uploads/2022/10/live22-1-1.webp?fit=271%2C110&amp;ssl=1" class="attachment-medium_large size-medium_large amp-wp-enforced-sizes i-amphtml-layout-intrinsic i-amphtml-layout-size-defined"
-                                                        alt="" layout="intrinsic" i-amphtml-layout="intrinsic">
-                                                        <i-amphtml-sizer slot="i-amphtml-svc" class="i-amphtml-sizer"><img alt="" aria-hidden="true" class="i-amphtml-intrinsic-sizer" role="presentation" src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjExMCIgd2lkdGg9IjI3MSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2ZXJzaW9uPSIxLjEiLz4="></i-amphtml-sizer><noscript><img width="271" height="110" src="https://i0.wp.com/delivery.labs.time.com/wp-content/uploads/2022/10/live22-1-1.webp?fit=271%2C110&amp;ssl=1" alt="" loading="lazy"></noscript></amp-img>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-711ec852" data-id="711ec852" data-element_type="column">
-                                    <div class="elementor-widget-wrap elementor-element-populated">
-                                        <div class="elementor-element elementor-element-65cbc2c8 elementor-widget elementor-widget-image" data-id="65cbc2c8" data-element_type="widget" data-widget_type="image.default">
-                                            <div class="elementor-widget-container">
-                                                <a href="https://purple-rock-0713bc910.2.azurestaticapps.net ">
-                                                    <amp-img width="271" height="110" src="https://i0.wp.com/delivery.labs.time.com/wp-content/uploads/2022/10/pgs-1-1.webp?fit=271%2C110&amp;ssl=1" class="attachment-medium_large size-medium_large amp-wp-enforced-sizes i-amphtml-layout-intrinsic i-amphtml-layout-size-defined"
-                                                        alt="" layout="intrinsic" i-amphtml-layout="intrinsic">
-                                                        <i-amphtml-sizer slot="i-amphtml-svc" class="i-amphtml-sizer"><img alt="" aria-hidden="true" class="i-amphtml-intrinsic-sizer" role="presentation" src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjExMCIgd2lkdGg9IjI3MSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2ZXJzaW9uPSIxLjEiLz4="></i-amphtml-sizer><noscript><img width="271" height="110" src="https://i0.wp.com/delivery.labs.time.com/wp-content/uploads/2022/10/pgs-1-1.webp?fit=271%2C110&amp;ssl=1" alt="" loading="lazy"></noscript></amp-img>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-32b8e513" data-id="32b8e513" data-element_type="">
-                                    <div class="elementor-widget-wrap elementor-element-populated">
-                                        <div class="elementor-element elementor-element-7dc5c62f elementor-widget elementor-widget-image" data-id="7dc5c62f" data-element_type="widget" data-widget_type="image.default">
-                                            <div class="elementor-widget-container">
-                                                <a href="https://purple-rock-0713bc910.2.azurestaticapps.net ">
-                                                    <amp-img width="271" height="110" src="https://i0.wp.com/delivery.labs.time.com/wp-content/uploads/2022/10/pgsoft-1-1.webp?fit=271%2C110&amp;ssl=1" class="attachment-medium_large size-medium_large amp-wp-enforced-sizes i-amphtml-layout-intrinsic i-amphtml-layout-size-defined"
-                                                        alt="" layout="intrinsic" i-amphtml-layout="intrinsic">
-                                                        <i-amphtml-sizer slot="i-amphtml-svc" class="i-amphtml-sizer"><img alt="" aria-hidden="true" class="i-amphtml-intrinsic-sizer" role="presentation" src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjExMCIgd2lkdGg9IjI3MSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2ZXJzaW9uPSIxLjEiLz4="></i-amphtml-sizer><noscript><img width="271" height="110" src="https://i0.wp.com/delivery.labs.time.com/wp-content/uploads/2022/10/pgsoft-1-1.webp?fit=271%2C110&amp;ssl=1" alt="" loading="lazy"></noscript></amp-img>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-9c1b2de" data-id="9c1b2de" data-element_type="column">
-                                    <div class="elementor-widget-wrap elementor-element-populated">
-                                        <div class="elementor-element elementor-element-28ead4fd elementor-widget elementor-widget-image" data-id="28ead4fd" data-element_type="widget" data-widget_type="image.default">
-                                            <div class="elementor-widget-container">
-                                                <a href="https://purple-rock-0713bc910.2.azurestaticapps.net ">
-                                                    <amp-img width="271" height="110" src="https://i0.wp.com/delivery.labs.time.com/wp-content/uploads/2022/10/slot88-1-1.webp?fit=271%2C110&amp;ssl=1" class="attachment-medium_large size-medium_large amp-wp-enforced-sizes i-amphtml-layout-intrinsic i-amphtml-layout-size-defined"
-                                                        alt="" layout="intrinsic" i-amphtml-layout="intrinsic">
-                                                        <i-amphtml-sizer slot="i-amphtml-svc" class="i-amphtml-sizer"><img alt="" aria-hidden="true" class="i-amphtml-intrinsic-sizer" role="presentation" src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjExMCIgd2lkdGg9IjI3MSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2ZXJzaW9uPSIxLjEiLz4="></i-amphtml-sizer><noscript><img width="271" height="110" src="https://i0.wp.com/delivery.labs.time.com/wp-content/uploads/2022/10/slot88-1-1.webp?fit=271%2C110&amp;ssl=1" alt="" loading="lazy"></noscript></amp-img>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </section>
-                        <section class="elementor-section elementor-top-section elementor-element elementor-element-abc5169 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="abc5169" data-element_type="section" data-settings='{"background_background":"classic"}'>
-                            <div class="elementor-container elementor-column-gap-default">
-                                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-a55d4af" data-id="a55d4af" data-element_type="column">
-                                    <div class="elementor-widget-wrap">
-                                    </div>
-                                </div>
-                            </div>
-                        </section>
-                        <section class="elementor-section elementor-top-section elementor-element elementor-element-3a3acb8a elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="3a3acb8a" data-element_type="section" data-settings='{"background_background":"classic","shape_divider_bottom":"tilt"}'>
-                            <div class="elementor-shape elementor-shape-bottom" data-negative="false">
-                                <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 1000 100" preserveaspectratio="none">
-	<path class="elementor-shape-fill" d="M0,6V0h1000v100L0,6z" />
-</svg> </div>
-                            <div class="elementor-container elementor-column-gap-default">
-                                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-11146806" data-id="11146806" data-element_type="column">
-                                    <div class="elementor-widget-wrap">
-                                    </div>
-                                </div>
-                            </div>
-                        </section>
-                        <section class="elementor-section elementor-top-section elementor-element elementor-element-3e4b2c73 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="3e4b2c73" data-element_type="section" data-settings='{"background_background":"classic"}'>
-                            <div class="elementor-container elementor-column-gap-default">
-                                <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-65c0fd19" data-id="65c0fd19" data-element_type="column">
-                                    <div class="elementor-widget-wrap elementor-element-populated">
-                                        <div class="elementor-element elementor-element-67d38183 elementor-widget elementor-widget-text-editor" data-id="67d38183" data-element_type="widget" data-widget_type="text-editor.default">
-                                            <div class="elementor-widget-container">
-                                                <p>KINGCOBRATOTO</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-67eeed7a" data-id="67eeed7a" data-element_type="column">
-                                    <div class="elementor-widget-wrap elementor-element-populated">
-                                        <div class="elementor-element elementor-element-32dbb143 elementor-align-justify elementor-widget elementor-widget-button" data-id="32dbb143" data-element_type="widget" data-widget_type="button.default">
-                                            <div class="elementor-widget-container">
-                                                <div class="elementor-button-wrapper">
-                                                    <a href="https://kingcobratogel.com/" class="elementor-button-link elementor-button elementor-size-md" role="button">
-						<span class="elementor-button-content-wrapper">
-						<span class="elementor-button-text">LINK ALTERNATIF &gt;&gt; </span>
-		</span>
-					</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </section>
-                        <section class="elementor-section elementor-top-section elementor-element elementor-element-2ba69b04 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="2ba69b04" data-element_type="section" data-settings='{"background_background":"classic"}'>
-                            <div class="elementor-container elementor-column-gap-default">
-                                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-6ea4bb27" data-id="6ea4bb27" data-element_type="column">
-                                    <div class="elementor-widget-wrap elementor-element-populated">
-                                        <div class="elementor-element elementor-element-74063f3f elementor-widget elementor-widget-text-editor" data-id="74063f3f" data-element_type="widget" data-widget_type="text-editor.default">
-                                            <div class="elementor-widget-container">
-                                                <table border="1" data-amp-original-style="width: 100%;" class="amp-wp-199b6f0">
-                                                    <tbody>
-                                                        <tr>
-                                                            <td><strong>Provider 🎰</strong></td>
-                                                            <td><b>Slot Online Gacor</b> 🔥</td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td><strong>Nama Situs 🍭</strong></td>
-                                                            <td>KINGCOBRATOTO Menang Terus Max Win 🎲</td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td><strong>Slot Online Populer 🏆</strong></td>
-                                                            <td><span data-amp-original-style="color: #ffffff; font-family: Ubuntu, sans-serif; font-size: medium;" class="amp-wp-3e9c90d">🟥 Pragmatic Play, 🟧 Joker123, 🟩 SpadeGaming, 🟦 Habanero.</span></td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td><strong>Deposit Melalui 🏧</strong></td>
-                                                            <td>💲 BCA, Mandiri, Cimb Niaga, Danamon, BNI, BRI, Pulsa, E-Money 💸</td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td><strong>Mininmal Deposit</strong></td>
-                                                            <td>💰 10.000 IDR Slot Bet Kecil 💰</td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td><strong>Minimal Withdraw</strong></td>
-                                                            <td>💸 50.000 IDR Pasti Win Menang Terus 💸</td>
-                                                        </tr>
-                                                    </tbody>
-                                                </table>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </section>
-                        <section class="elementor-section elementor-top-section elementor-element elementor-element-2073106c elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="2073106c" data-element_type="section" data-settings='{"background_background":"classic"}'>
-                            <div class="elementor-container elementor-column-gap-default">
-                                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-74f3b949" data-id="74f3b949" data-element_type="column">
-                                    <div class="elementor-widget-wrap">
-                                    </div>
-                                </div>
-                            </div>
-                        </section>
-                        <section class="elementor-section elementor-top-section elementor-element elementor-element-b91fae elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="b91fae" data-element_type="section" data-settings='{"background_background":"classic"}'>
-                            <div class="elementor-container elementor-column-gap-default">
-                                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-1bd08125" data-id="1bd08125" data-element_type="column">
-                                    <div class="elementor-widget-wrap elementor-element-populated">
-                                        <div class="elementor-element elementor-element-3d565f62 elementor-widget elementor-widget-text-editor" data-id="3d565f62" data-element_type="widget" data-widget_type="text-editor.default">
-                                            <div class="elementor-widget-container">
-                                                <p style="text-align:justify"><a href="https://purple-rock-0713bc910.2.azurestaticapps.net ">Kingcobratoto</a> sebagai situs slot online paling dipercaya di indonesia dengan tingkat kemenangan paling besar sekarang ini. Anda bisa bermain di semua tipe permainan slot online. Ada lebih dari ratusan slot online pada agen slot online Kingcobratoto. Sebagai situs slot online sah sebagai opsi nomor satu sekarang ini. Yakinkan anda sudah pilih situs slot online terbaik seperti Kingcobratoto, janganlah sampai anda salah untuk pilih situs slot online karena akan berpengaruh fatal. karena pada sekarang ini banyak beberapa situs slot online akui sebagai bandar judi slot online paling dipercaya tetapi realita nya tidak. Secara umum nya slot online bermula dari permainan yang ada di kasino, namun kehebatan tehnologi pada sekarang ini benar-benar mengubah peran permainan slots. Saat ini permainan slots bisa dijangkau lewat cara online, permainan slot online bisa anda permainkan kapan pun dan dimanapun bila anda tersambung dengan internet.
+
+<div class="container">
+
+<div class="head">
+
+<a class="logo" href="https://purple-rock-0713bc910.2.azurestaticapps.net/"></a>
+
+
+</div>
+
+<div class="menu">
+<a href="https://purple-rock-0713bc910.2.azurestaticapps.net/" title="Live Draw SGP" target="_blank">Live Draw SGP</a>
+<a href="http://167.71.196.102/" title="Live Draw HK" target="_blank">Live Draw HK</a>
+<a href="http://178.128.63.39/" title="Live Draw Macau" target="_blank">Live Draw Macau</a>
+</div>
+
+<div class="content">
+
+<h1><a href="https://purple-rock-0713bc910.2.azurestaticapps.net/" title="Live Draw SGP">Live Draw SGP</a></h1>
+
+<p><a href="https://purple-rock-0713bc910.2.azurestaticapps.net/" title="Live Draw SGP" style="color:white;font-weight:588;text-decoration:none;">Live Draw SGP</a> situs pemutaran langsung nomor keluaran sgp yang terhubung dengan singaporepools.com.sg</p>
+
+<p>Saat ini situs live sgp yang resmi tidak bisa diakses dengan mudah apabila dalam lokasi indonesia. Live draw sgp kami bertugas untuk menampilkan hasil live resmi secara langsung. Sebagai tambahan, live sgp tidak tayang hari selasa dan jumat.
+
 </p>
-                                                <p style="text-align:justify">Kecanggihan serta perkembangan teknologi menuntut agar agen slot online lebih update untuk mengembangkan permainan game judi online yang telah tersedia. Kingcobratoto merupakan agen situs slot online selalu mengembanngkan
-                                                    game slot online dengan fitur terbaru. Terdapat Fitur RTP situs slot online dapat anda nikmati di Situs Slot Online Kingcobratoto, RTP <a href="https://purple-rock-0713bc910.2.azurestaticapps.net ">slot gacor</a> yang memberikan kemudahan saat anda ingin mendapatkan kemenangan
-                                                    saat bermain.</p>
 
-                                                    <p style="text-align:justify">Kehebatan dan perubahan tehnologi menuntut supaya agen slot online lebih up-date untuk meningkatkan permainan games judi online yang sudah ada. Kingcobratoto sebagai agen website slot online selalu mengutamakan games slot online dengan feature terkini. Ada Feature RTP situs slot online bisa anda cicipi di <a href="https://purple-rock-0713bc910.2.azurestaticapps.net ">Situs Slots Online Kingcobratoto</a> , RTP slot gacor yang memberi keringanan saat anda ingin memperoleh kemenangan ketika bermain.</p>
+<p>Uniknya live sgp terbagi menjadi sgp pools dan sgp toto. Kami menampilkan keduanya karena masing-masing tayang pada hari yang berbeda pula.
 
-                                                <h2>Situs Judi Slot Online Gacor Terbesar Saat Ini</h2>
-                                                <p style="text-align:justify">Slot online sebagai website judi online yang sediakan permainan dengan hadiah paling besar. Anda bisa bermain slot online dengan beberapa permainan yang bisa anda permainkan bersama Kingcobratoto. Selainnya jumlah kemenangan yang bisa anda capai ketika bermain slot online, kita sebagai agen slot gacor memberi banyak permainan yang bisa anda permainkan disamping itu anda bisa mengeklaim bonus yang sudah disiapkan oleh situs <a href="https://purple-rock-0713bc910.2.azurestaticapps.net ">slot online</a> gacor Kingcobratoto.</p>
+</p>
+</div>
+ 
+<div class="content">
 
-                                                <p style="text-align:justify">Kingcobratoto akan membagi info mengenai games slot online gacor tiap hari ke tiap anggota dengan feature RTP Slots Gacor Ini hari. Hal yang penting jadi perhatian agar bisa bermain situs slot online supaya memperoleh kemenangan ialah anda bermain games yang anda kuasai supaya anda tidak ketidaktahuan ketika bermain slot online.</p>
-                                                <h3>Agen Judi Slots Online Gacor Paling populer Tahun 2022 Kingcobratoto</h3>
+<h2><a href="https://purple-rock-0713bc910.2.azurestaticapps.net/" title="Live Result SGP 4D">Live Result SGP 4D</a></h2>
 
-                                                <p style="text-align:justify">Kingcobratoto adalah sebagai agen slots yang sekarang ini memiliki lebih dari beberapa puluh ribu pemain yang aktif. Kami sediakan lebih dari beberapa ratus permainan games online dimulai dari, Judi Bola Online, Slots Online, Poker Online (IDN Poker), Judi Sabung Ayam, Judi Tembak Ikan, Judi <a href="https://purple-rock-0713bc910.2.azurestaticapps.net ">Togel Online</a> , dan ada banyak kembali permainan yang dihidangkan oleh agen slot online Kingcobratoto. Keseluruhnya permainan yang kami siapkan pasti sudah memperoleh lisensi sah dari instansi permainan judi. Di mana tiap permainan yang kami siapkan telah penuhi standard yang ditetapkan oleh faksi yang berkaitan.</p>
+<p>Live Result SGP / Singapore Pools 4D adalah hasil keluaran untuk pasaran togel Singapura yang pemutarannya akan dilakukan pada hari Rabu, Sabtu dan Minggu. Result akan di mulai dari pukul <span style="color:#3729ff;">17.30 WIB</span> sore hingga berakhir di pukul <span style="color:#3729ff;">18.30 WIB</span> sore.</p>
+<div class="sgp"></div>
+<p style="text-align: left;">
+<a href="https://heylink.me/daftarkingcobratoto/" target="_blank" rel="noopener noreferrer">
+<img decoding="async" class="alignnone" style="width: 100%;" src="https://i.imgur.com/rYLUiVp.gif" alt="" width="728" height="90" border="0"></a></p>
+<p>Pencarian terkait yang mungkin sedang anda cari :</p>
+<ul class="out-link">
+<li>Live Draw SGP WLA</li>
+<li>Live SGP</li>
+<li>Live Draw SGP Harian</li>
+<li>SGP Hari Ini</li>
+<li>Live Singapura</li>
+<li>Live Draw Warna SGP</li>
+<li>Keluaran SGP Live</li>
+<li>Data Keluaran SGP</li>
+<li>Result SGP Lengkap</li>
+</ul>
 
-                                                <p style="text-align:justify">Agen slot online paling dipercaya yang kami referensikan <a href="https://purple-rock-0713bc910.2.azurestaticapps.net ">Kingcobratoto</a> telah kantongi beberapa sertifikat dari instansi permainan judi internasional tidak lain dari PAGCOR, GAMBLING COMMISSION, Gaming Labs Certified, BMM Testlabs, MALTA GAMING AUTHORITY. Dengan kantongi beberapa lisensi dari instansi itu, pasti ini bukanlah jadi satu kekuatiran beberapa pemain saat bermain pada agen slot online. Dengan demikian kalian tak perlu sangsi untuk menjadi satu diantara anggota besar kami yang memiliki banyak keuntungan dan keuntungan besar untuk pemain.</p>
+<h2><a href="https://purple-rock-0713bc910.2.azurestaticapps.net/" title="Live Draw SGP TOTO">Live Draw SGP TOTO</a></h2>
 
-                                                
-                        <section class="elementor-section elementor-top-section elementor-element elementor-element-fbe2ce9 elementor-section-height-min-height elementor-section-boxed elementor-section-height-default elementor-section-items-middle" data-id="fbe2ce9" data-element_type="section"
-                            data-settings='{"background_background":"classic"}'>
-                            <div class="elementor-container elementor-column-gap-default">
-                                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-1762c5b9" data-id="1762c5b9" data-element_type="column">
-                                    <div class="elementor-widget-wrap">
-                                    </div>
-                                </div>
-                            </div>
-                        </section>
-                        <section class="elementor-section elementor-top-section elementor-element elementor-element-17301a6e elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="17301a6e" data-element_type="section" data-settings='{"background_background":"classic","shape_divider_bottom":"tilt"}'>
-                            <div class="elementor-shape elementor-shape-bottom" data-negative="false">
-                                <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 1000 100" preserveaspectratio="none">
-	<path class="elementor-shape-fill" d="M0,6V0h1000v100L0,6z" />
-</svg> </div>
-                            <div class="elementor-container elementor-column-gap-default">
-                                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-210dfd5" data-id="210dfd5" data-element_type="column">
-                                    <div class="elementor-widget-wrap">
-                                    </div>
-                                </div>
-                            </div>
-                        </section>
-                    </div>
+<p>Setiap waktunya apabila live draw akan dimulai , diusahakan sebaik mungkin agar tim kami bisa meluruskan dan mengupdate halaman live sgp agar kalian dapat menikmati hasil demi hasil pengeluaran live draw sgp.</p>
+<div class="toto"></div>
 
 
+<p>Diatas merupakan hasil lengkap harian untuk pengeluaran live sgp melalui berbagai proses. Jangan lupa untuk menyaksikan selalu live draw singapore melalui halaman ini, silahkan bookmark dahulu supaya mudah mengakses kembali utk kedepannya. Semoga JP dalam permainan togel singapore ya bos.
+</p>
+<br>
+<h2><a href="https://purple-rock-0713bc910.2.azurestaticapps.net/" title="Hasil Result SGP">Hasil Keluaran SGP 2022</a></h2>
+<table id='myTable'>
+         <tbody><tr class="header">
+            <th style="width:20%">SENIN</th>
+            <th style="width:20%">RABU</th>
+            <th style="width:20%">KAMIS</th>
+            <th style="width:20%">SABTU</th>
+            <th style="width:20%">MINGGU</th>
+         </tr>
+      <tr>
+    <td>xxxx</td>
+    <td>xxxx</td>
+    <td>xxxx</td>
+    <td>4366</td>
+    <td>5006</td>
+</tr>
+<tr>
+    <td>2924</td>
+    <td>6934</td>
+    <td>9450</td>
+    <td>0826</td>
+    <td>1485</td>
+</tr>
+<tr>
+    <td>8158</td>
+    <td>0175</td>
+    <td>4612</td>
+    <td>3978</td>
+    <td>3648</td>
+</tr>
+<tr>
+    <td>9474</td>
+    <td>6498</td>
+    <td>5101</td>
+    <td>8715</td>
+    <td>8829</td>
+</tr>
+<tr>
+    <td>8340</td>
+    <td>3761</td>
+    <td>8200</td>
+    <td>8475</td>
+    <td>1644</td>
+</tr>
+<tr>
+    <td>6505</td>
+    <td>1403</td>
+    <td>9652</td>
+    <td>4048</td>
+    <td>5082</td>
+</tr>
+<tr>
+    <td>8056</td>
+    <td>6071</td>
+    <td>7469</td>
+    <td>9214</td>
+    <td>8465</td>
+</tr>
+<tr>
+    <td>2005</td>
+    <td>5875</td>
+    <td>3285</td>
+    <td>9410</td>
+    <td>4078</td>
+</tr>
+<tr>
+    <td>1480</td>
+    <td>6119</td>
+    <td>6650</td>
+    <td>7960</td>
+    <td>8078</td>
+</tr>
+<tr>
+    <td>9469</td>
+    <td>7585</td>
+    <td>7011</td>
+    <td>4587</td>
+    <td>7668</td>
+</tr>
+<tr>
+    <td>6707</td>
+    <td>5554</td>
+    <td>3711</td>
+    <td>5999</td>
+    <td>0380</td>
+</tr>
+<tr>
+    <td>5227</td>
+    <td>8360</td>
+    <td>7923</td>
+    <td>4863</td>
+    <td>3181</td>
+</tr>
+<tr>
+    <td>2712</td>
+    <td>6766</td>
+    <td>7616</td>
+    <td>0660</td>
+    <td>1099</td>
+</tr>
+<tr>
+    <td>9103</td>
+    <td>8730</td>
+    <td>4613</td>
+    <td>1041</td>
+    <td>9128</td>
+</tr>
+<tr>
+    <td>3128</td>
+    <td>3817</td>
+    <td>7906</td>
+    <td>0905</td>
+    <td>7917</td>
+</tr>
+<tr>
+    <td>0343</td>
+    <td>9749</td>
+    <td>9538</td>
+    <td>2493</td>
+    <td>9709</td>
+</tr>
+<tr>
+    <td>3177</td>
+    <td>2126</td>
+    <td>5086</td>
+    <td>4925</td>
+    <td>3990</td>
+</tr>
+<tr>
+    <td>2102</td>
+    <td>8647</td>
+    <td>7896</td>
+    <td>2958</td>
+    <td>5802</td>
+</tr>
+<tr>
+    <td>7771</td>
+    <td>9284</td>
+    <td>8009</td>
+    <td>0139</td>
+    <td>1670</td>
+</tr>
+<tr>
+    <td>7106</td>
+    <td>1629</td>
+    <td>6941</td>
+    <td>1353</td>
+    <td>9085</td>
+</tr>
+<tr>
+    <td>2366</td>
+    <td>7676</td>
+    <td>1106</td>
+    <td>6969</td>
+    <td>5754</td>
+</tr>
+<tr>
+    <td>6812</td>
+    <td>9759</td>
+    <td>1789</td>
+    <td>1215</td>
+    <td>0384</td>
+</tr>
+<tr>
+    <td>2190</td>
+    <td>4316</td>
+    <td>5440</td>
+    <td>2587</td>
+    <td>1596</td>
+</tr>
+<tr>
+    <td>7539</td>
+    <td>0154</td>
+    <td>9313</td>
+    <td>6053</td>
+    <td>2611</td>
+</tr>
+<tr>
+    <td>7623</td>
+    <td>5241</td>
+    <td>3213</td>
+    <td>6990</td>
+    <td>7340</td>
+</tr>
+<tr>
+    <td>3322</td>
+    <td>2944</td>
+    <td>9470</td>
+    <td>1342</td>
+    <td>9879</td>
+</tr>
+<tr>
+    <td>1634</td>
+    <td>1614</td>
+    <td>2888</td>
+    <td>7844</td>
+    <td>0501</td>
+</tr>
+<tr>
+    <td>2589</td>
+    <td>7287</td>
+    <td>7290</td>
+    <td>1702</td>
+    <td>7561</td>
+</tr>
+<tr>
+    <td>9942</td>
+    <td>2723</td>
+    <td>5561</td>
+    <td>7041</td>
+    <td>9303</td>
+</tr>
+<tr>
+    <td>6439</td>
+    <td>6258</td>
+    <td>6552</td>
+    <td>9614</td>
+    <td>2536</td>
+</tr>
+<tr>
+    <td>5178</td>
+    <td>6715</td>
+    <td>7940</td>
+    <td>4987</td>
+    <td>8423</td>
+</tr>
+<tr>
+    <td>2468</td>
+    <td>2362</td>
+    <td>2011</td>
+    <td>3784</td>
+    <td>9961</td>
+</tr>
+</tbody>
+</table>
+<br>
 
+<p>Data SGP adalah perkumpulan hasil yang diperoleh berdasarkan data resmi/sah dari pengeluaran togel sgp. Terutama disampaikan bahwasanya pada hari selasa dan jumat data ini tidak akan diperbarui karena libur. Khususnya pemula yang belum mengetahui situs resmi utama dari togel sgp yaitu singaporepools.com.sg</p>
 
+<p>Seluruh penyampaian data sgp 2022 dipastikan valid dan tidak akan mengalami kesalahan seperti berbeda dari pengeluaran singapore resmi hari ini. Tujuan sepenuhnya dari ini yakni sebagai pembantu pemain togel yang membutuhkan hasil pengeluaran togel sgp karena tidak sempat menyaksikan live draw. Partner kami juga menyediakan banyak jenis data data togel lain, silahkan simak dengan seksama apa saja hal tersedia disitus ini.
 
+.</p>
 
+<p>Banner iklan yang anda lihat di halaman utama ini merupakan situs bandar togel online terpercaya pilihan terbaik dari kami, segera bergabung sekarang juga dengan cara melakukan pendaftaran terlebih dahulu. Selamat mencoba dan semoga JP 4 angka!!!</p>
+</div>
 
+<div class="end">
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                    <amp-pixel src="https://pixel.wp.com/g.gif?v=ext&amp;blog=211435452&amp;post=46&amp;tz=7&amp;srv=delivery.labs.time.com&amp;hp=atomic&amp;ac=2&amp;amp=1&amp;host=delivery.labs.time.com&amp;rand=RANDOM&amp;ref=DOCUMENT_REFERRER" class="i-amphtml-layout-fixed i-amphtml-layout-size-defined"
-                        style="width:1px;height:1px" i-amphtml-layout="fixed"></amp-pixel>
-                    <amp-next-page max-pages="0" class="i-amphtml-layout-container" i-amphtml-layout="container">
-                        <script type="application/json">
-                            [{
-                                "title": "",
-                                "url": "",
-                                "image": ""
-                            }]
-                        </script>
-                        <div separator>
-                        </div>
-                        <div recommendation-box class="recommendation-box">
-                            <template type="amp-mustache">
-			{{#pages}}
-						{{/pages}}
-		</template>
-                        </div>
-                        <div footer>
-                            
-                        </div>
-                    </amp-next-page>
-
+<h3><a href="https://purple-rock-0713bc910.2.azurestaticapps.net/" title="Live Draw SGP">Live Draw SGP</a> | <a href="https://purple-rock-0713bc910.2.azurestaticapps.net/" title="Live Result SGP">Live Result SGP</a> | <a href="https://purple-rock-0713bc910.2.azurestaticapps.net/" title="Keluaran SGP">Keluaran SGP</a></h3>
+</div>
+</div>
 </body>
-
 </html>
-<!--
-	generated 178 seconds ago
-	generated in 0.606 seconds
-	served from batcache in 0.002 seconds
-	expires in 122 seconds
--->
