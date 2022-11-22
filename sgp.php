@@ -10,11 +10,6 @@
 <td class="nomprize" colspan="2" style="text-align:center;">8784</td>
 </tr>
 <tr>
-<td colspan="8" style="width:100%; height: auto; box-sizing: border-box; border: 1px solid white;">
-<a href="https://kuciang.com/?ref=ld156165" target="_blank"><img style="width: 100%; box-sizing: border-box;" src="https://res.cloudinary.com/f0ustf0ur/image/upload/v1668608434/KPKTOGEL_2_iaxfxx.gif"></a>
-</td>
-</tr>
-<tr>
 <td class="prize" colspan="2">STARTER</td>
 <td class="prize" colspan="2">CONSOLATION</td>
 </tr><tr>
