@@ -1,0 +1,5 @@
+
+<table style="background:#000;"><tr><td colspan="8" style="color: #be2d45; font-size: 23px;">LIVE DRAW SGP TOTO hari Senin 21 November 2022</td></tr><tr>
+<td class="toto22" colspan="1" style="text-align:center;">3</td><td class="toto22" colspan="1" style="text-align:center;">9</td><td class="toto22" colspan="1" style="text-align:center;">21</td><td class="toto22" colspan="1" style="text-align:center;">30</td><td class="toto22" colspan="1" style="text-align:center;">36</td><td class="toto22" colspan="1" style="text-align:center;">46</td><td class="toto22" colspan="1" style="text-align:center;">+</td><td class="toto22" colspan="1" style="text-align:center;">2</td></tr><tr>
+<td class="prtt" colspan="4">PRIZE 1</td>
+<td class="prtt2" colspan="4" style="text-align:center;">0643</td></tr></table>
